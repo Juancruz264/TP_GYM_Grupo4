@@ -27,5 +27,10 @@ namespace frontGYM_
         {
             this.Close();
         }
+
+        private void ABMCliente_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

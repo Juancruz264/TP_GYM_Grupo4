@@ -46,6 +46,7 @@
             ABMCliente.TabIndex = 0;
             ABMCliente.Text = "ABM de clientes";
             ABMCliente.UseVisualStyleBackColor = true;
+            ABMCliente.Click += ABMCliente_Click;
             // 
             // titulo
             // 
