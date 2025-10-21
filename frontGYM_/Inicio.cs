@@ -54,8 +54,13 @@ namespace frontGYM_
 
         private void Ingreso_Click(object sender, EventArgs e)
         {
+            
+
+        }
+
+        private void Ingreso_Click_1(object sender, EventArgs e)
+        {
             using (Menu menu = new Menu(Email.Text, Contraseña.Text)) { menu.ShowDialog(); }
-                
         }
     }
 }

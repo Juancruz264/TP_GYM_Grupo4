@@ -94,7 +94,7 @@
             Ingreso.TabIndex = 5;
             Ingreso.Text = "Ingresar";
             Ingreso.UseVisualStyleBackColor = false;
-            Ingreso.Click += Ingreso_Click;
+            Ingreso.Click += Ingreso_Click_1;
             // 
             // label4
             // 

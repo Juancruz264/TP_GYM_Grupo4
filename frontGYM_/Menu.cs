@@ -30,6 +30,11 @@ namespace frontGYM_
 
         private void ABMCliente_Click(object sender, EventArgs e)
         {
+            using (MenuABMCliente abmCliente = new MenuABMCliente()) { abmCliente.ShowDialog(); }
+        }
+
+        private void ABMClases_Click(object sender, EventArgs e)
+        {
 
         }
     }

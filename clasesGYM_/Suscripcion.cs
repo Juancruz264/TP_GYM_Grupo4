@@ -11,12 +11,11 @@ namespace clasesGYM_
     {
         [Key]
         public int Id { get; set; }
+        public string Nombre { get; set; }
         public DateTime FechaInicio { get; set; }
         public DateTime FechaVen { get; set; }
-        public TipoSuscripcion Tipo { get; set; }
-        public Factura FacturaAsociada { get; set; } 
+        public Factura FacturaAsociada { get; set; }
         public EstadoFac EstadoFactura { get; set; }
-        public enum TipoSuscripcion { PaseLibre, TresVecesPorSemana, DiaSolo }
         public enum EstadoFac { vencida, pagada, pendiente }
     }
 }

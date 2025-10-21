@@ -66,6 +66,7 @@
             ABMClases.TabIndex = 2;
             ABMClases.Text = "ABM de clases";
             ABMClases.UseVisualStyleBackColor = true;
+            ABMClases.Click += ABMClases_Click;
             // 
             // ABMSuscrip
             // 
