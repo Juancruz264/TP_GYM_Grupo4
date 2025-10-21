@@ -1,0 +1,14 @@
+C:\Users\ainxr\source\repos\clasesGYM_\obj\Debug\net8.0\clasesGYM_.csproj.AssemblyReference.cache
+C:\Users\ainxr\source\repos\clasesGYM_\obj\Debug\net8.0\clasesGYM_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ainxr\source\repos\clasesGYM_\obj\Debug\net8.0\clasesGYM_.AssemblyInfoInputs.cache
+C:\Users\ainxr\source\repos\clasesGYM_\obj\Debug\net8.0\clasesGYM_.AssemblyInfo.cs
+C:\Users\ainxr\source\repos\clasesGYM_\obj\Debug\net8.0\clasesGYM_.csproj.CoreCompileInputs.cache
+C:\Users\ainxr\source\repos\clasesGYM_\bin\Debug\net8.0\clasesGYM_.deps.json
+C:\Users\ainxr\source\repos\clasesGYM_\bin\Debug\net8.0\clasesGYM_.runtimeconfig.json
+C:\Users\ainxr\source\repos\clasesGYM_\bin\Debug\net8.0\clasesGYM_.dll
+C:\Users\ainxr\source\repos\clasesGYM_\bin\Debug\net8.0\clasesGYM_.pdb
+C:\Users\ainxr\source\repos\clasesGYM_\obj\Debug\net8.0\clasesGYM_.dll
+C:\Users\ainxr\source\repos\clasesGYM_\obj\Debug\net8.0\refint\clasesGYM_.dll
+C:\Users\ainxr\source\repos\clasesGYM_\obj\Debug\net8.0\clasesGYM_.pdb
+C:\Users\ainxr\source\repos\clasesGYM_\obj\Debug\net8.0\clasesGYM_.genruntimeconfig.cache
+C:\Users\ainxr\source\repos\clasesGYM_\obj\Debug\net8.0\ref\clasesGYM_.dll
