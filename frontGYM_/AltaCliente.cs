@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.EntityFrameworkCore;
 using clasesGYM_;
+using clasesGYM_.Repositorios;  
 
 namespace frontGYM_
 {
@@ -44,8 +45,7 @@ namespace frontGYM_
                     Telefono = int.Parse(Telefono.Text),
                     TipoSuscripcion = tipoSuscripcion
                 };
-                context.Clientes.Add(nuevoCliente);
-                context.SaveChanges();
+                ClienteRepository.AgregarCliente(nuevoCliente);
                 MessageBox.Show("Cliente registrado con éxito.");
             }
         }
