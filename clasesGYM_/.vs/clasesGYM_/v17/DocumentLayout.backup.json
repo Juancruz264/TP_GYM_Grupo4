@@ -3,21 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\frontgym_\\altacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\frontgym_\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontgym_\\altacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontgym_\\menuabmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\frontgym_\\menuabmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\clasesgym_\\suscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:suscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,11 +11,53 @@
       "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\frontgym_\\altasuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\frontgym_\\altacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontgym_\\altacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\clasesgym_\\suscripcionalumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:suscripcionalumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\clasesgym_\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\clasesgym_\\repositorios\\horariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:repositorios\\horariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\clasesgym_\\repositorios\\pagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:repositorios\\pagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\clasesgym_\\repositorios\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:repositorios\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\clasesgym_\\repositorios\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:repositorios\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\clasesgym_\\repositorios\\claserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:repositorios\\claserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontgym_\\altasuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\frontgym_\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontgym_\\menuabmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\frontgym_\\menuabmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\frontgym_\\altasuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\clasesgym_\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,9 +65,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\frontgym_\\menuabmsuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontgym_\\altasuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontgym_\\menuabmsuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
@@ -87,32 +111,8 @@
       "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\clasesgym_\\repositorios\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:repositorios\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\clasesgym_\\repositorios\\pagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:repositorios\\pagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\clasesgym_\\repositorios\\horariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:repositorios\\horariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\clasesgym_\\repositorios\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:repositorios\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\clasesgym_\\repositorios\\claserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:repositorios\\claserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\clasesgym_\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\clasesgym_\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\clasesgym_\\horario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -144,11 +144,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "Clase.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Clase.cs",
               "RelativeDocumentMoniker": "Clase.cs",
@@ -169,33 +169,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SuscripcionAlumno.cs",
-              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\SuscripcionAlumno.cs",
-              "RelativeDocumentMoniker": "SuscripcionAlumno.cs",
-              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\SuscripcionAlumno.cs",
-              "RelativeToolTip": "SuscripcionAlumno.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T00:09:34.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AltaCliente.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\AltaCliente.cs",
               "RelativeDocumentMoniker": "..\\frontGYM_\\AltaCliente.cs",
               "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\AltaCliente.cs",
               "RelativeToolTip": "..\\frontGYM_\\AltaCliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwC0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T21:32:17.547Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "HorarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\HorarioRepository.cs",
+              "RelativeDocumentMoniker": "Repositorios\\HorarioRepository.cs",
+              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\HorarioRepository.cs",
+              "RelativeToolTip": "Repositorios\\HorarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T19:31:35.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SuscripcionAlumno.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\SuscripcionAlumno.cs",
+              "RelativeDocumentMoniker": "SuscripcionAlumno.cs",
+              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\SuscripcionAlumno.cs",
+              "RelativeToolTip": "SuscripcionAlumno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T00:09:34.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Plan.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Plan.cs",
+              "RelativeDocumentMoniker": "Plan.cs",
+              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Plan.cs",
+              "RelativeToolTip": "Plan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T20:20:45.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Suscripcion.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Suscripcion.cs",
+              "RelativeDocumentMoniker": "Suscripcion.cs",
+              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Suscripcion.cs",
+              "RelativeToolTip": "Suscripcion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T20:14:14.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Cliente.cs",
+              "RelativeDocumentMoniker": "Cliente.cs",
+              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Cliente.cs",
+              "RelativeToolTip": "Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T20:13:06.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AltaCliente.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\AltaCliente.cs",
               "RelativeDocumentMoniker": "..\\frontGYM_\\AltaCliente.cs",
@@ -207,45 +259,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Cliente.cs",
-              "RelativeDocumentMoniker": "Cliente.cs",
-              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Cliente.cs",
-              "RelativeToolTip": "Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "PagoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\PagoRepository.cs",
+              "RelativeDocumentMoniker": "Repositorios\\PagoRepository.cs",
+              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\PagoRepository.cs",
+              "RelativeToolTip": "Repositorios\\PagoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T20:13:06.526Z",
+              "WhenOpened": "2025-10-19T19:33:33.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MenuABMCliente.cs",
-              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\MenuABMCliente.cs",
-              "RelativeDocumentMoniker": "..\\frontGYM_\\MenuABMCliente.cs",
-              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\MenuABMCliente.cs",
-              "RelativeToolTip": "..\\frontGYM_\\MenuABMCliente.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwvxMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "FacturaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\FacturaRepository.cs",
+              "RelativeDocumentMoniker": "Repositorios\\FacturaRepository.cs",
+              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\FacturaRepository.cs",
+              "RelativeToolTip": "Repositorios\\FacturaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T21:14:42.972Z",
+              "WhenOpened": "2025-10-19T19:33:21.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MenuABMCliente.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\MenuABMCliente.cs",
-              "RelativeDocumentMoniker": "..\\frontGYM_\\MenuABMCliente.cs",
-              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\MenuABMCliente.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\frontGYM_\\MenuABMCliente.cs [Dise\u00F1o]",
+              "DocumentIndex": 10,
+              "Title": "ClaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\ClaseRepository.cs",
+              "RelativeDocumentMoniker": "Repositorios\\ClaseRepository.cs",
+              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\ClaseRepository.cs",
+              "RelativeToolTip": "Repositorios\\ClaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T21:16:13.522Z",
+              "WhenOpened": "2025-10-19T19:31:03.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "Repositorios\\ClienteRepository.cs",
+              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\ClienteRepository.cs",
+              "RelativeToolTip": "Repositorios\\ClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T19:29:41.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AltaSuscripcion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\AltaSuscripcion.cs",
+              "RelativeDocumentMoniker": "..\\frontGYM_\\AltaSuscripcion.cs",
+              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\AltaSuscripcion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\frontGYM_\\AltaSuscripcion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T00:02:41.943Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "Inicio.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\Inicio.cs",
               "RelativeDocumentMoniker": "..\\frontGYM_\\Inicio.cs",
@@ -258,20 +336,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Suscripcion.cs",
-              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Suscripcion.cs",
-              "RelativeDocumentMoniker": "Suscripcion.cs",
-              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Suscripcion.cs",
-              "RelativeToolTip": "Suscripcion.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBAAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "MenuABMCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\MenuABMCliente.cs",
+              "RelativeDocumentMoniker": "..\\frontGYM_\\MenuABMCliente.cs",
+              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\MenuABMCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\frontGYM_\\MenuABMCliente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T20:14:14.855Z",
+              "WhenOpened": "2025-10-21T21:16:13.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MenuABMCliente.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\MenuABMCliente.cs",
+              "RelativeDocumentMoniker": "..\\frontGYM_\\MenuABMCliente.cs",
+              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\MenuABMCliente.cs",
+              "RelativeToolTip": "..\\frontGYM_\\MenuABMCliente.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvxMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T21:14:42.972Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ApplicationDbContext.cs",
@@ -283,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "AltaSuscripcion.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\AltaSuscripcion.cs",
               "RelativeDocumentMoniker": "..\\frontGYM_\\AltaSuscripcion.cs",
@@ -296,19 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AltaSuscripcion.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\AltaSuscripcion.cs",
-              "RelativeDocumentMoniker": "..\\frontGYM_\\AltaSuscripcion.cs",
-              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\AltaSuscripcion.cs [Design]",
-              "RelativeToolTip": "..\\frontGYM_\\AltaSuscripcion.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T00:02:41.943Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "MenuABMSuscripcion.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\MenuABMSuscripcion.cs",
               "RelativeDocumentMoniker": "..\\frontGYM_\\MenuABMSuscripcion.cs",
@@ -321,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "MenuABMSuscripcion.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\MenuABMSuscripcion.cs",
               "RelativeDocumentMoniker": "..\\frontGYM_\\MenuABMSuscripcion.cs",
@@ -332,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\Menu.cs",
               "RelativeDocumentMoniker": "..\\frontGYM_\\Menu.cs",
@@ -345,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "Menu.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\Menu.cs",
               "RelativeDocumentMoniker": "..\\frontGYM_\\Menu.cs",
@@ -356,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "Inicio.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\Inicio.cs",
               "RelativeDocumentMoniker": "..\\frontGYM_\\Inicio.cs",
@@ -367,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "PlanRepository.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\PlanRepository.cs",
               "RelativeDocumentMoniker": "Repositorios\\PlanRepository.cs",
@@ -379,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "SuscripcionRepository.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\SuscripcionRepository.cs",
               "RelativeDocumentMoniker": "Repositorios\\SuscripcionRepository.cs",
@@ -391,7 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "Administrador.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Administrador.cs",
               "RelativeDocumentMoniker": "Administrador.cs",
@@ -403,7 +480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "MenuABMCliente.Designer.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\MenuABMCliente.Designer.cs",
               "RelativeDocumentMoniker": "..\\frontGYM_\\MenuABMCliente.Designer.cs",
@@ -411,12 +488,11 @@
               "RelativeToolTip": "..\\frontGYM_\\MenuABMCliente.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAiwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T21:15:58.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T21:15:58.708Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "Inicio.Designer.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\Inicio.Designer.cs",
               "RelativeDocumentMoniker": "..\\frontGYM_\\Inicio.Designer.cs",
@@ -440,7 +516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\frontGYM_\\Menu.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\frontGYM_\\Menu.cs",
@@ -452,7 +528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "Inicio.Designer.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\frontGYM_\\Inicio.Designer.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\frontGYM_\\Inicio.Designer.cs",
@@ -510,19 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ClienteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\ClienteRepository.cs",
-              "RelativeDocumentMoniker": "Repositorios\\ClienteRepository.cs",
-              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\ClienteRepository.cs",
-              "RelativeToolTip": "Repositorios\\ClienteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T19:29:41.424Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "Factura.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Factura.cs",
               "RelativeDocumentMoniker": "Factura.cs",
@@ -546,55 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "HorarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\HorarioRepository.cs",
-              "RelativeDocumentMoniker": "Repositorios\\HorarioRepository.cs",
-              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\HorarioRepository.cs",
-              "RelativeToolTip": "Repositorios\\HorarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T19:31:35.065Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "PagoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\PagoRepository.cs",
-              "RelativeDocumentMoniker": "Repositorios\\PagoRepository.cs",
-              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\PagoRepository.cs",
-              "RelativeToolTip": "Repositorios\\PagoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T19:33:33.947Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "FacturaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\FacturaRepository.cs",
-              "RelativeDocumentMoniker": "Repositorios\\FacturaRepository.cs",
-              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\FacturaRepository.cs",
-              "RelativeToolTip": "Repositorios\\FacturaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T19:33:21.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ClaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\ClaseRepository.cs",
-              "RelativeDocumentMoniker": "Repositorios\\ClaseRepository.cs",
-              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\ClaseRepository.cs",
-              "RelativeToolTip": "Repositorios\\ClaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T19:31:03.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Pago.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Pago.cs",
               "RelativeDocumentMoniker": "Pago.cs",
@@ -603,18 +619,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-14T20:14:23.118Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Plan.cs",
-              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Plan.cs",
-              "RelativeDocumentMoniker": "Plan.cs",
-              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Plan.cs",
-              "RelativeToolTip": "Plan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAUwAoAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T20:20:45.787Z"
             },
             {
               "$type": "Document",

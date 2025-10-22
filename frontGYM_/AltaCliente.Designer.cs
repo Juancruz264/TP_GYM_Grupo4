@@ -45,6 +45,8 @@
             comboBox1 = new ComboBox();
             Volver = new Button();
             errorProvider1 = new ErrorProvider(components);
+            dateTimePicker1 = new DateTimePicker();
+            label8 = new Label();
             ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
             SuspendLayout();
             // 
@@ -182,11 +184,29 @@
             // 
             errorProvider1.ContainerControl = this;
             // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Location = new Point(736, 83);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(250, 27);
+            dateTimePicker1.TabIndex = 15;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(592, 88);
+            label8.Name = "label8";
+            label8.Size = new Size(122, 20);
+            label8.TabIndex = 16;
+            label8.Text = "Fecha Inscripcion";
+            // 
             // AltaCliente
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1025, 441);
+            Controls.Add(label8);
+            Controls.Add(dateTimePicker1);
             Controls.Add(Volver);
             Controls.Add(comboBox1);
             Controls.Add(label7);
@@ -228,5 +248,7 @@
         private ComboBox comboBox1;
         private Button Volver;
         private ErrorProvider errorProvider1;
+        private Label label8;
+        private DateTimePicker dateTimePicker1;
     }
 }
