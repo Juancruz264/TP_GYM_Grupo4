@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "WorkspaceRootPath": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\",
   "Documents": [
     {
@@ -116,13 +117,92 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\clasesgym_\\horario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+  "WorkspaceRootPath": "C:\\TP_Grupo4\\clasesGYM_\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\tp_grupo4\\frontgym_\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ainxr\\source\\repos\\frontGYM_\\Menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\tp_grupo4\\clasesgym_\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ainxr\\source\\repos\\frontGYM_\\Inicio.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\tp_grupo4\\clasesgym_\\suscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:suscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\tp_grupo4\\clasesgym_\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\tp_grupo4\\clasesgym_\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\tp_grupo4\\clasesgym_\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\tp_grupo4\\clasesgym_\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\tp_grupo4\\clasesgym_\\repositorios\\planrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:repositorios\\planrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\tp_grupo4\\clasesgym_\\repositorios\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:repositorios\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\tp_grupo4\\clasesgym_\\repositorios\\pagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:repositorios\\pagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\tp_grupo4\\clasesgym_\\repositorios\\horariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:repositorios\\horariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\tp_grupo4\\clasesgym_\\repositorios\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:repositorios\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\tp_grupo4\\clasesgym_\\repositorios\\claserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:repositorios\\claserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\tp_grupo4\\clasesgym_\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\tp_grupo4\\clasesgym_\\repositorios\\suscripcionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:repositorios\\suscripcionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\tp_grupo4\\clasesgym_\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\tp_grupo4\\clasesgym_\\horario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:horario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ainxr\\source\\repos\\frontGYM_\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ainxr\\source\\repos\\frontgym_\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+=======
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\ainxr\\source\\repos\\frontgym_\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ainxr\\source\\repos\\frontGYM_\\frontGYM_.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -144,15 +224,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 30,
               "Title": "Clase.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Clase.cs",
               "RelativeDocumentMoniker": "Clase.cs",
               "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Clase.cs",
+=======
+              "DocumentIndex": 7,
+              "Title": "Clase.cs",
+              "DocumentMoniker": "C:\\TP_Grupo4\\clasesGYM_\\Clase.cs",
+              "RelativeDocumentMoniker": "Clase.cs",
+              "ToolTip": "C:\\TP_Grupo4\\clasesGYM_\\Clase.cs",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Clase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -160,6 +248,21 @@
               "IsPinned": true
             },
             {
+<<<<<<< Updated upstream
+=======
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Inicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\TP_Grupo4\\frontGYM_\\Inicio.cs",
+              "RelativeDocumentMoniker": "..\\frontGYM_\\Inicio.cs",
+              "ToolTip": "C:\\TP_Grupo4\\frontGYM_\\Inicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\frontGYM_\\Inicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T20:20:13.771Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+>>>>>>> Stashed changes
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
@@ -169,6 +272,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 0,
               "Title": "AltaCliente.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\AltaCliente.cs",
@@ -187,6 +291,194 @@
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\HorarioRepository.cs",
               "RelativeDocumentMoniker": "Repositorios\\HorarioRepository.cs",
               "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\HorarioRepository.cs",
+=======
+              "DocumentIndex": 3,
+              "Title": "Inicio.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\frontGYM_\\Inicio.Designer.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\ainxr\\source\\repos\\frontGYM_\\Inicio.Designer.cs",
+              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\frontGYM_\\Inicio.Designer.cs",
+              "RelativeToolTip": "..\\..\\Users\\ainxr\\source\\repos\\frontGYM_\\Inicio.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T15:00:46.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\frontGYM_\\Menu.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\ainxr\\source\\repos\\frontGYM_\\Menu.cs",
+              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\frontGYM_\\Menu.cs",
+              "RelativeToolTip": "..\\..\\Users\\ainxr\\source\\repos\\frontGYM_\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T14:23:37.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\TP_Grupo4\\clasesGYM_\\Cliente.cs",
+              "RelativeDocumentMoniker": "Cliente.cs",
+              "ToolTip": "C:\\TP_Grupo4\\clasesGYM_\\Cliente.cs",
+              "RelativeToolTip": "Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T20:13:06.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\frontGYM_\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\ainxr\\source\\repos\\frontGYM_\\Program.cs",
+              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\frontGYM_\\Program.cs",
+              "RelativeToolTip": "..\\..\\Users\\ainxr\\source\\repos\\frontGYM_\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T22:57:57.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Inicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\frontGYM_\\Inicio.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\ainxr\\source\\repos\\frontGYM_\\Inicio.cs",
+              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\frontGYM_\\Inicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Users\\ainxr\\source\\repos\\frontGYM_\\Inicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T14:41:11.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Suscripcion.cs",
+              "DocumentMoniker": "C:\\TP_Grupo4\\clasesGYM_\\Suscripcion.cs",
+              "RelativeDocumentMoniker": "Suscripcion.cs",
+              "ToolTip": "C:\\TP_Grupo4\\clasesGYM_\\Suscripcion.cs",
+              "RelativeToolTip": "Suscripcion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T20:14:14.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "frontGYM_.csproj",
+              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\frontGYM_\\frontGYM_.csproj",
+              "RelativeDocumentMoniker": "..\\..\\Users\\ainxr\\source\\repos\\frontGYM_\\frontGYM_.csproj",
+              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\frontGYM_\\frontGYM_.csproj",
+              "RelativeToolTip": "..\\..\\Users\\ainxr\\source\\repos\\frontGYM_\\frontGYM_.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-21T13:25:48.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\TP_Grupo4\\clasesGYM_\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ApplicationDbContext.cs",
+              "ToolTip": "C:\\TP_Grupo4\\clasesGYM_\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T23:08:50.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlanRepository.cs",
+              "DocumentMoniker": "C:\\TP_Grupo4\\clasesGYM_\\Repositorios\\PlanRepository.cs",
+              "RelativeDocumentMoniker": "Repositorios\\PlanRepository.cs",
+              "ToolTip": "C:\\TP_Grupo4\\clasesGYM_\\Repositorios\\PlanRepository.cs",
+              "RelativeToolTip": "Repositorios\\PlanRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T19:31:54.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Inicio.resx",
+              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\frontGYM_\\Inicio.resx",
+              "RelativeDocumentMoniker": "..\\..\\Users\\ainxr\\source\\repos\\frontGYM_\\Inicio.resx",
+              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\frontGYM_\\Inicio.resx",
+              "RelativeToolTip": "..\\..\\Users\\ainxr\\source\\repos\\frontGYM_\\Inicio.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-10-21T15:00:47.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\frontGYM_\\Inicio.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\ainxr\\source\\repos\\frontGYM_\\Inicio.cs",
+              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\frontGYM_\\Inicio.cs",
+              "RelativeToolTip": "..\\..\\Users\\ainxr\\source\\repos\\frontGYM_\\Inicio.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T20:13:45.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\TP_Grupo4\\clasesGYM_\\Repositorios\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "Repositorios\\ClienteRepository.cs",
+              "ToolTip": "C:\\TP_Grupo4\\clasesGYM_\\Repositorios\\ClienteRepository.cs",
+              "RelativeToolTip": "Repositorios\\ClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T19:29:41.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Administrador.cs",
+              "DocumentMoniker": "C:\\TP_Grupo4\\clasesGYM_\\Administrador.cs",
+              "RelativeDocumentMoniker": "Administrador.cs",
+              "ToolTip": "C:\\TP_Grupo4\\clasesGYM_\\Administrador.cs",
+              "RelativeToolTip": "Administrador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T19:48:30.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Factura.cs",
+              "DocumentMoniker": "C:\\TP_Grupo4\\clasesGYM_\\Factura.cs",
+              "RelativeDocumentMoniker": "Factura.cs",
+              "ToolTip": "C:\\TP_Grupo4\\clasesGYM_\\Factura.cs",
+              "RelativeToolTip": "Factura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T20:14:31.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Menu.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\frontGYM_\\Menu.Designer.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\ainxr\\source\\repos\\frontGYM_\\Menu.Designer.cs",
+              "ToolTip": "C:\\Users\\ainxr\\source\\repos\\frontGYM_\\Menu.Designer.cs",
+              "RelativeToolTip": "..\\..\\Users\\ainxr\\source\\repos\\frontGYM_\\Menu.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T14:24:07.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HorarioRepository.cs",
+              "DocumentMoniker": "C:\\TP_Grupo4\\clasesGYM_\\Repositorios\\HorarioRepository.cs",
+              "RelativeDocumentMoniker": "Repositorios\\HorarioRepository.cs",
+              "ToolTip": "C:\\TP_Grupo4\\clasesGYM_\\Repositorios\\HorarioRepository.cs",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Repositorios\\HorarioRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -194,6 +486,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 4,
               "Title": "SuscripcionAlumno.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\SuscripcionAlumno.cs",
@@ -201,16 +494,81 @@
               "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\SuscripcionAlumno.cs",
               "RelativeToolTip": "SuscripcionAlumno.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+=======
+              "DocumentIndex": 11,
+              "Title": "PagoRepository.cs",
+              "DocumentMoniker": "C:\\TP_Grupo4\\clasesGYM_\\Repositorios\\PagoRepository.cs",
+              "RelativeDocumentMoniker": "Repositorios\\PagoRepository.cs",
+              "ToolTip": "C:\\TP_Grupo4\\clasesGYM_\\Repositorios\\PagoRepository.cs",
+              "RelativeToolTip": "Repositorios\\PagoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-22T00:09:34.748Z"
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 5,
               "Title": "Plan.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Plan.cs",
               "RelativeDocumentMoniker": "Plan.cs",
               "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Plan.cs",
+=======
+              "DocumentIndex": 13,
+              "Title": "FacturaRepository.cs",
+              "DocumentMoniker": "C:\\TP_Grupo4\\clasesGYM_\\Repositorios\\FacturaRepository.cs",
+              "RelativeDocumentMoniker": "Repositorios\\FacturaRepository.cs",
+              "ToolTip": "C:\\TP_Grupo4\\clasesGYM_\\Repositorios\\FacturaRepository.cs",
+              "RelativeToolTip": "Repositorios\\FacturaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T19:33:21.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ClaseRepository.cs",
+              "DocumentMoniker": "C:\\TP_Grupo4\\clasesGYM_\\Repositorios\\ClaseRepository.cs",
+              "RelativeDocumentMoniker": "Repositorios\\ClaseRepository.cs",
+              "ToolTip": "C:\\TP_Grupo4\\clasesGYM_\\Repositorios\\ClaseRepository.cs",
+              "RelativeToolTip": "Repositorios\\ClaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T19:31:03.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SuscripcionRepository.cs",
+              "DocumentMoniker": "C:\\TP_Grupo4\\clasesGYM_\\Repositorios\\SuscripcionRepository.cs",
+              "RelativeDocumentMoniker": "Repositorios\\SuscripcionRepository.cs",
+              "ToolTip": "C:\\TP_Grupo4\\clasesGYM_\\Repositorios\\SuscripcionRepository.cs",
+              "RelativeToolTip": "Repositorios\\SuscripcionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T19:32:10.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Pago.cs",
+              "DocumentMoniker": "C:\\TP_Grupo4\\clasesGYM_\\Pago.cs",
+              "RelativeDocumentMoniker": "Pago.cs",
+              "ToolTip": "C:\\TP_Grupo4\\clasesGYM_\\Pago.cs",
+              "RelativeToolTip": "Pago.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T20:14:23.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Plan.cs",
+              "DocumentMoniker": "C:\\TP_Grupo4\\clasesGYM_\\Plan.cs",
+              "RelativeDocumentMoniker": "Plan.cs",
+              "ToolTip": "C:\\TP_Grupo4\\clasesGYM_\\Plan.cs",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Plan.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAUwAoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -218,6 +576,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
               "Title": "Suscripcion.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Suscripcion.cs",
@@ -615,6 +974,13 @@
               "DocumentMoniker": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Horario.cs",
               "RelativeDocumentMoniker": "Horario.cs",
               "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\clasesGYM_\\Horario.cs",
+=======
+              "DocumentIndex": 18,
+              "Title": "Horario.cs",
+              "DocumentMoniker": "C:\\TP_Grupo4\\clasesGYM_\\Horario.cs",
+              "RelativeDocumentMoniker": "Horario.cs",
+              "ToolTip": "C:\\TP_Grupo4\\clasesGYM_\\Horario.cs",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Horario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
