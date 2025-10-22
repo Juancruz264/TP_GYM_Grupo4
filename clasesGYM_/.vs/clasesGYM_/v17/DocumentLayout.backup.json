@@ -17,13 +17,13 @@
       "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\frontgym_\\menuabmsuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\frontgym_\\altasuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontgym_\\altasuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\frontgym_\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\frontgym_\\menuabmsuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontgym_\\menuabmsuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\source\\repos\\ejercicioprueba\\clasesejercicioprueba\\tp_gym_grupo4\\frontgym_\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -200,7 +200,7 @@
               "RelativeDocumentMoniker": "..\\frontGYM_\\AltaSuscripcion.cs",
               "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\AltaSuscripcion.cs",
               "RelativeToolTip": "..\\frontGYM_\\AltaSuscripcion.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCgAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-22T00:11:07.92Z",
               "EditorCaption": ""
@@ -215,8 +215,7 @@
               "RelativeToolTip": "ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T23:08:50.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T23:08:50.499Z"
             },
             {
               "$type": "Document",
@@ -228,8 +227,7 @@
               "RelativeToolTip": "Suscripcion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T20:14:14.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T20:14:14.855Z"
             },
             {
               "$type": "Document",
@@ -240,7 +238,8 @@
               "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\MenuABMSuscripcion.cs [Dise\u00F1o]",
               "RelativeToolTip": "..\\frontGYM_\\MenuABMSuscripcion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T21:54:38.606Z"
+              "WhenOpened": "2025-10-21T21:54:38.606Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -277,7 +276,8 @@
               "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\Menu.cs [Dise\u00F1o]",
               "RelativeToolTip": "..\\frontGYM_\\Menu.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T20:40:38.508Z"
+              "WhenOpened": "2025-10-21T20:40:38.508Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -301,7 +301,8 @@
               "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\Inicio.cs [Dise\u00F1o]",
               "RelativeToolTip": "..\\frontGYM_\\Inicio.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T21:06:07.843Z"
+              "WhenOpened": "2025-10-21T21:06:07.843Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -312,7 +313,8 @@
               "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\MenuABMCliente.cs [Dise\u00F1o]",
               "RelativeToolTip": "..\\frontGYM_\\MenuABMCliente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T21:16:13.522Z"
+              "WhenOpened": "2025-10-21T21:16:13.522Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -372,7 +374,8 @@
               "ToolTip": "C:\\Users\\ainxr\\source\\repos\\EjercicioPrueba\\ClasesEjercicioPrueba\\TP_GYM_Grupo4\\frontGYM_\\AltaCliente.cs [Dise\u00F1o]",
               "RelativeToolTip": "..\\frontGYM_\\AltaCliente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T21:32:52.873Z"
+              "WhenOpened": "2025-10-21T21:32:52.873Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -408,7 +411,8 @@
               "RelativeToolTip": "..\\frontGYM_\\MenuABMCliente.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAiwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T21:15:58.708Z"
+              "WhenOpened": "2025-10-21T21:15:58.708Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -420,7 +424,8 @@
               "RelativeToolTip": "..\\frontGYM_\\Inicio.Designer.cs",
               "ViewState": "AgIAAFAAAAAAAAAAAAAiwF8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T21:03:41.153Z"
+              "WhenOpened": "2025-10-21T21:03:41.153Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
