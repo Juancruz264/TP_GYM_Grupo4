@@ -19,5 +19,11 @@
     <Compile Update="MenuABMSuscripcion.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ModificarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ModificarDatosCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

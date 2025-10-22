@@ -16,5 +16,25 @@ namespace clasesGYM_.Repositorios
                 context.SaveChanges();
             }
         }
+        public static void EliminarCliente(int clienteId)
+        {
+            using (var context = new AplicationDbContext())
+            {
+                var cliente = context.Clientes.Find(clienteId);
+                if (cliente != null)
+                {
+                    context.Clientes.Remove(cliente);
+                    context.SaveChanges();
+                }
+            }
+        }
+        public static void ActualizarCliente(Cliente cliente)
+        {
+            using (var context = new AplicationDbContext())
+            {
+                context.Clientes.Update(cliente);
+                context.SaveChanges();
+            }
+        }
     }
 }

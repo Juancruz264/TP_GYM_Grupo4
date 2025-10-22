@@ -15,5 +15,6 @@ namespace clasesGYM_
         public string Apellido { get; set; }
         public int Telefono { get; set; } 
         public Suscripcion TipoSuscripcion { get; set; }
+        public DateTime FechaInicio { get; set; }
     }
 }

@@ -43,7 +43,8 @@ namespace frontGYM_
                     Nombre = Nombre.Text,
                     Apellido = Apellido.Text,
                     Telefono = int.Parse(Telefono.Text),
-                    TipoSuscripcion = tipoSuscripcion
+                    TipoSuscripcion = tipoSuscripcion,
+                    FechaInicio = FechaInicio.Value
                 };
                 ClienteRepository.AgregarCliente(nuevoCliente);
                 MessageBox.Show("Cliente registrado con éxito.");
@@ -54,7 +55,6 @@ namespace frontGYM_
         {
             comboBox1.DataSource = Suscripcion.ObtenerTipos();
             comboBox1.DisplayMember = "Nombre";
-
         }
     }
 }
