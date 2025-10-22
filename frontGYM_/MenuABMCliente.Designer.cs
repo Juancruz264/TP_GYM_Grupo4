@@ -32,7 +32,7 @@
             ActualizarCliente = new Button();
             BajaCliente = new Button();
             label1 = new Label();
-            Salir = new Button();
+            Volver = new Button();
             SuspendLayout();
             // 
             // AltaCliente
@@ -72,25 +72,24 @@
             label1.TabIndex = 3;
             label1.Text = "ABM CLIENTES";
             // 
-            // Salir
+            // Volver
             // 
-            Salir.BackColor = Color.Red;
-            Salir.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Salir.ForeColor = SystemColors.ButtonFace;
-            Salir.Location = new Point(727, 426);
-            Salir.Name = "Salir";
-            Salir.Size = new Size(94, 29);
-            Salir.TabIndex = 4;
-            Salir.Text = "Salir!";
-            Salir.UseVisualStyleBackColor = false;
-            Salir.Click += Salir_Click;
+            Volver.BackColor = Color.Red;
+            Volver.Font = new Font("Tahoma", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Volver.ForeColor = SystemColors.ControlLightLight;
+            Volver.Location = new Point(714, 413);
+            Volver.Name = "Volver";
+            Volver.Size = new Size(105, 36);
+            Volver.TabIndex = 7;
+            Volver.Text = "volver!";
+            Volver.UseVisualStyleBackColor = false;
             // 
             // MenuABMCliente
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(850, 479);
-            Controls.Add(Salir);
+            Controls.Add(Volver);
             Controls.Add(label1);
             Controls.Add(BajaCliente);
             Controls.Add(ActualizarCliente);
@@ -107,6 +106,6 @@
         private Button ActualizarCliente;
         private Button BajaCliente;
         private Label label1;
-        private Button Salir;
+        private Button Volver;
     }
 }

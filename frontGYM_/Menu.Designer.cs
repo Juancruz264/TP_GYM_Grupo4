@@ -35,7 +35,7 @@
             ABMSuscrip = new Button();
             CargarPago = new Button();
             Reportes = new Button();
-            Salir = new Button();
+            Volver = new Button();
             SuspendLayout();
             // 
             // ABMCliente
@@ -76,6 +76,7 @@
             ABMSuscrip.TabIndex = 3;
             ABMSuscrip.Text = "ABM de suscripciones";
             ABMSuscrip.UseVisualStyleBackColor = true;
+            ABMSuscrip.Click += ABMSuscrip_Click;
             // 
             // CargarPago
             // 
@@ -95,25 +96,25 @@
             Reportes.Text = "Ver Reportes";
             Reportes.UseVisualStyleBackColor = true;
             // 
-            // Salir
+            // Volver
             // 
-            Salir.BackColor = Color.Red;
-            Salir.Font = new Font("Tahoma", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Salir.ForeColor = SystemColors.ControlLightLight;
-            Salir.Location = new Point(654, 381);
-            Salir.Name = "Salir";
-            Salir.Size = new Size(105, 36);
-            Salir.TabIndex = 6;
-            Salir.Text = "salir!";
-            Salir.UseVisualStyleBackColor = false;
-            Salir.Click += Salir_Click;
+            Volver.BackColor = Color.Red;
+            Volver.Font = new Font("Tahoma", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Volver.ForeColor = SystemColors.ControlLightLight;
+            Volver.Location = new Point(654, 381);
+            Volver.Name = "Volver";
+            Volver.Size = new Size(105, 36);
+            Volver.TabIndex = 6;
+            Volver.Text = "volver!";
+            Volver.UseVisualStyleBackColor = false;
+            Volver.Click += Salir_Click;
             // 
             // Menu
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(Salir);
+            Controls.Add(Volver);
             Controls.Add(Reportes);
             Controls.Add(CargarPago);
             Controls.Add(ABMSuscrip);
@@ -136,6 +137,6 @@
         private Button ABMSuscrip;
         private Button CargarPago;
         private Button Reportes;
-        private Button Salir;
+        private Button Volver;
     }
 }

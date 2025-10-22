@@ -42,6 +42,7 @@
             Registro = new Button();
             label7 = new Label();
             comboBox1 = new ComboBox();
+            Volver = new Button();
             SuspendLayout();
             // 
             // label1
@@ -160,11 +161,25 @@
             comboBox1.Size = new Size(298, 28);
             comboBox1.TabIndex = 13;
             // 
+            // Volver
+            // 
+            Volver.BackColor = Color.Red;
+            Volver.Font = new Font("Tahoma", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Volver.ForeColor = SystemColors.ControlLightLight;
+            Volver.Location = new Point(664, 386);
+            Volver.Name = "Volver";
+            Volver.Size = new Size(105, 36);
+            Volver.TabIndex = 14;
+            Volver.Text = "volver!";
+            Volver.UseVisualStyleBackColor = false;
+            Volver.Click += Volver_Click;
+            // 
             // AltaCliente
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(Volver);
             Controls.Add(comboBox1);
             Controls.Add(label7);
             Controls.Add(Registro);
@@ -201,5 +216,6 @@
         private Button Registro;
         private Label label7;
         private ComboBox comboBox1;
+        private Button Volver;
     }
 }

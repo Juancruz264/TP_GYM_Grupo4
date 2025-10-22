@@ -37,5 +37,10 @@ namespace frontGYM_
         {
 
         }
+
+        private void ABMSuscrip_Click(object sender, EventArgs e)
+        {
+            using (MenuABMSuscripcion abmSuscrip = new MenuABMSuscripcion()) { abmSuscrip.ShowDialog(); }
+        }
     }
 }

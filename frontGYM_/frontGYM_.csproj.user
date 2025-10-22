@@ -4,6 +4,9 @@
     <Compile Update="AltaCliente.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="AltaSuscripcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Menu.cs">
       <SubType>Form</SubType>
     </Compile>

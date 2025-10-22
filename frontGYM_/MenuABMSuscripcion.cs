@@ -16,5 +16,15 @@ namespace frontGYM_
         {
             InitializeComponent();
         }
+
+        private void AltaSuscripcion_Click(object sender, EventArgs e)
+        {
+            using (AltaSuscripcion altaSuscripcion = new AltaSuscripcion()) { altaSuscripcion.ShowDialog(); }
+        }
+
+        private void Volver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

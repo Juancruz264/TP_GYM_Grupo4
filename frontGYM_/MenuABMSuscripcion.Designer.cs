@@ -29,9 +29,10 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            BajaCliente = new Button();
-            ActualizarCliente = new Button();
-            AltaCliente = new Button();
+            BajaSuscripcion = new Button();
+            ModificarSuscripcion = new Button();
+            AltaSuscripcion = new Button();
+            Volver = new Button();
             SuspendLayout();
             // 
             // label1
@@ -44,42 +45,57 @@
             label1.TabIndex = 7;
             label1.Text = "ABM SUSCRIPCIÓN";
             // 
-            // BajaCliente
+            // BajaSuscripcion
             // 
-            BajaCliente.Location = new Point(187, 283);
-            BajaCliente.Name = "BajaCliente";
-            BajaCliente.Size = new Size(407, 41);
-            BajaCliente.TabIndex = 6;
-            BajaCliente.Text = "Dar de baja cliente";
-            BajaCliente.UseVisualStyleBackColor = true;
+            BajaSuscripcion.Location = new Point(187, 283);
+            BajaSuscripcion.Name = "BajaSuscripcion";
+            BajaSuscripcion.Size = new Size(407, 41);
+            BajaSuscripcion.TabIndex = 6;
+            BajaSuscripcion.Text = "Dar de baja suscripción";
+            BajaSuscripcion.UseVisualStyleBackColor = true;
             // 
-            // ActualizarCliente
+            // ModificarSuscripcion
             // 
-            ActualizarCliente.Location = new Point(187, 210);
-            ActualizarCliente.Name = "ActualizarCliente";
-            ActualizarCliente.Size = new Size(407, 41);
-            ActualizarCliente.TabIndex = 5;
-            ActualizarCliente.Text = "Actualizar cliente";
-            ActualizarCliente.UseVisualStyleBackColor = true;
+            ModificarSuscripcion.Location = new Point(187, 210);
+            ModificarSuscripcion.Name = "ModificarSuscripcion";
+            ModificarSuscripcion.Size = new Size(407, 41);
+            ModificarSuscripcion.TabIndex = 5;
+            ModificarSuscripcion.Text = "Modificar Suscripción";
+            ModificarSuscripcion.UseVisualStyleBackColor = true;
             // 
-            // AltaCliente
+            // AltaSuscripcion
             // 
-            AltaCliente.Location = new Point(187, 140);
-            AltaCliente.Name = "AltaCliente";
-            AltaCliente.Size = new Size(407, 41);
-            AltaCliente.TabIndex = 4;
-            AltaCliente.Text = "Dar de alta cliente";
-            AltaCliente.UseVisualStyleBackColor = true;
+            AltaSuscripcion.Location = new Point(187, 140);
+            AltaSuscripcion.Name = "AltaSuscripcion";
+            AltaSuscripcion.Size = new Size(407, 41);
+            AltaSuscripcion.TabIndex = 4;
+            AltaSuscripcion.Text = "Dar de alta suscripción";
+            AltaSuscripcion.UseVisualStyleBackColor = true;
+            AltaSuscripcion.Click += AltaSuscripcion_Click;
+            // 
+            // Volver
+            // 
+            Volver.BackColor = Color.Red;
+            Volver.Font = new Font("Tahoma", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Volver.ForeColor = SystemColors.ControlLightLight;
+            Volver.Location = new Point(656, 380);
+            Volver.Name = "Volver";
+            Volver.Size = new Size(105, 36);
+            Volver.TabIndex = 8;
+            Volver.Text = "volver!";
+            Volver.UseVisualStyleBackColor = false;
+            Volver.Click += Volver_Click;
             // 
             // MenuABMSuscripcion
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(Volver);
             Controls.Add(label1);
-            Controls.Add(BajaCliente);
-            Controls.Add(ActualizarCliente);
-            Controls.Add(AltaCliente);
+            Controls.Add(BajaSuscripcion);
+            Controls.Add(ModificarSuscripcion);
+            Controls.Add(AltaSuscripcion);
             Name = "MenuABMSuscripcion";
             Text = "MenuABMSuscripcion";
             ResumeLayout(false);
@@ -89,8 +105,9 @@
         #endregion
 
         private Label label1;
-        private Button BajaCliente;
-        private Button ActualizarCliente;
-        private Button AltaCliente;
+        private Button BajaSuscripcion;
+        private Button ModificarSuscripcion;
+        private Button AltaSuscripcion;
+        private Button Volver;
     }
 }

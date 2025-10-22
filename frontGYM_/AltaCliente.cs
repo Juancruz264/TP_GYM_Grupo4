@@ -17,6 +17,9 @@ namespace frontGYM_
             InitializeComponent();
         }
 
-      
+        private void Volver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

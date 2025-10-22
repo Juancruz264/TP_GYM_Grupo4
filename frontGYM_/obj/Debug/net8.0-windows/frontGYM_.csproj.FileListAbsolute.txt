@@ -196,3 +196,6 @@ C:\Users\ainxr\source\repos\EjercicioPrueba\ClasesEjercicioPrueba\TP_GYM_Grupo4\
 C:\Users\ainxr\source\repos\EjercicioPrueba\ClasesEjercicioPrueba\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\frontGYM_.genruntimeconfig.cache
 C:\Users\ainxr\source\repos\EjercicioPrueba\ClasesEjercicioPrueba\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\ref\frontGYM_.dll
 C:\Users\ainxr\source\repos\EjercicioPrueba\ClasesEjercicioPrueba\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\frontGYM_.MenuABMCliente.resources
+C:\Users\ainxr\source\repos\EjercicioPrueba\ClasesEjercicioPrueba\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\frontGYM_.AltaCliente.resources
+C:\Users\ainxr\source\repos\EjercicioPrueba\ClasesEjercicioPrueba\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\frontGYM_.AltaSuscripcion.resources
+C:\Users\ainxr\source\repos\EjercicioPrueba\ClasesEjercicioPrueba\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\frontGYM_.MenuABMSuscripcion.resources
