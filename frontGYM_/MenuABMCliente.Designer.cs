@@ -43,6 +43,7 @@
             AltaCliente.TabIndex = 0;
             AltaCliente.Text = "Dar de alta cliente";
             AltaCliente.UseVisualStyleBackColor = true;
+            AltaCliente.Click += AltaCliente_Click;
             // 
             // ActualizarCliente
             // 
@@ -83,6 +84,7 @@
             Volver.TabIndex = 7;
             Volver.Text = "volver!";
             Volver.UseVisualStyleBackColor = false;
+            Volver.Click += Volver_Click;
             // 
             // MenuABMCliente
             // 

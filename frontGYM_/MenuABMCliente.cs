@@ -18,7 +18,16 @@ namespace frontGYM_
             InitializeComponent();
         }
 
-        private void Salir_Click(object sender, EventArgs e)
+
+        private void AltaCliente_Click(object sender, EventArgs e)
+        {
+            using (AltaCliente altaClienteForm = new AltaCliente())
+            {
+                altaClienteForm.ShowDialog();
+            }
+        }
+
+        private void Volver_Click(object sender, EventArgs e)
         {
             this.Close();
         }

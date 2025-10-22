@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.EntityFrameworkCore;
+using clasesGYM_;
 
 namespace frontGYM_
 {
@@ -20,6 +22,39 @@ namespace frontGYM_
         private void Volver_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Registro_Click(object sender, EventArgs e)
+        {
+            using (AplicationDbContext context = new AplicationDbContext())
+            {
+                var tipoSuscripcion = comboBox1.SelectedItem as Suscripcion;
+                if (tipoSuscripcion == null)
+                {
+                    MessageBox.Show("Por favor, seleccione un tipo de suscripción.");
+                    return;
+                }
+
+                var nuevoCliente = new Cliente
+                {
+                    Dni = int.Parse(Dni.Text),
+                    Direccion = Direccion.Text,
+                    Nombre = Nombre.Text,
+                    Apellido = Apellido.Text,
+                    Telefono = int.Parse(Telefono.Text),
+                    TipoSuscripcion = tipoSuscripcion
+                };
+                context.Clientes.Add(nuevoCliente);
+                context.SaveChanges();
+                MessageBox.Show("Cliente registrado con éxito.");
+            }
+        }
+
+        private void AltaCliente_Load(object sender, EventArgs e)
+        {
+            comboBox1.DataSource = Suscripcion.ObtenerTipos();
+            comboBox1.DisplayMember = "Nombre";
+
         }
     }
 }

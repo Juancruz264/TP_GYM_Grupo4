@@ -13,7 +13,7 @@ namespace clasesGYM_
         public string Direccion { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
-        public int NumeroTelefono { get; set; } 
-        public Suscripcion SuscripcionActual { get; set; }
+        public int Telefono { get; set; } 
+        public Suscripcion TipoSuscripcion { get; set; }
     }
 }

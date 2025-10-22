@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -43,6 +44,8 @@
             label7 = new Label();
             comboBox1 = new ComboBox();
             Volver = new Button();
+            errorProvider1 = new ErrorProvider(components);
+            ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -143,6 +146,7 @@
             Registro.TabIndex = 11;
             Registro.Text = "Registrar!";
             Registro.UseVisualStyleBackColor = true;
+            Registro.Click += Registro_Click;
             // 
             // label7
             // 
@@ -174,6 +178,10 @@
             Volver.UseVisualStyleBackColor = false;
             Volver.Click += Volver_Click;
             // 
+            // errorProvider1
+            // 
+            errorProvider1.ContainerControl = this;
+            // 
             // AltaCliente
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -196,6 +204,8 @@
             Controls.Add(label1);
             Name = "AltaCliente";
             Text = "AltaCliente";
+            Load += AltaCliente_Load;
+            ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -217,5 +227,6 @@
         private Label label7;
         private ComboBox comboBox1;
         private Button Volver;
+        private ErrorProvider errorProvider1;
     }
 }
