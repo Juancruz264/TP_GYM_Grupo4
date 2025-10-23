@@ -7,10 +7,19 @@
     <Compile Update="AltaSuscripcion.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms Clases\AltaClase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms Clases\ModificarClase.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms Clases\MenuABMClases.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="MenuABMCliente.cs">

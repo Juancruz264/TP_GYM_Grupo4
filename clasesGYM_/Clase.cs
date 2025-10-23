@@ -10,6 +10,17 @@ namespace clasesGYM_
     {
         public int Id { get; set; } 
         public string Nombre { get; set; }
-        public List <Horario> Horarios { get; set; }
+        public string Profesor { get; set; }
+        public Horario Horario { get; set; }
+        public static List<Clase> ObtenerHorario()
+        {
+            return new List<Clase>
+            {
+                new Clase { Nombre = "De 7:00  a 12:00 " },
+                new Clase { Nombre = "De 13:00 a 16:00"},
+                new Clase { Nombre = "De 16:00 a 20:00"}
+            };
+        }
+
     }
 }

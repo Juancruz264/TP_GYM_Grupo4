@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace clasesGYM_.Repositorios
 {
-    internal class ClaseRepository
+    public class ClaseRepository
     {
+        public static void AgregarClase(Clase clase)
+        {
+            using (var context = new AplicationDbContext())
+            {
+                context.Clases.Add(clase);
+                context.SaveChanges();
+            }
+        }
     }
 }
