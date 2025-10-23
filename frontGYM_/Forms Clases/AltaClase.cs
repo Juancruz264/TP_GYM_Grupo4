@@ -21,8 +21,6 @@ namespace frontGYM_.Forms_Clases
         }
         private void AltaClase_Load(object sender, EventArgs e)
         {
-            comboBox1.DataSource = Clase.ObtenerHorario();
-            comboBox1.DisplayMember = "Nombre";
         }
 
         private void CrearClase_Click(object sender, EventArgs e)
@@ -39,13 +37,11 @@ namespace frontGYM_.Forms_Clases
                 var nuevaClase = new Clase
                 {
                     Nombre = Nombre.Text,
-                    Profesor = Profesor.Text,
-                    Horario = horario,
-                
+                    Profesor = Profesor.Text
                 };
                 ClaseRepository.AgregarClase(nuevaClase);
                 MessageBox.Show("Clase creada con éxito.");
             }
-
+        }
     }
 }

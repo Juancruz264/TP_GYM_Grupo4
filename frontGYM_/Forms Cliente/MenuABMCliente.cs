@@ -31,5 +31,10 @@ namespace frontGYM_
         {
             this.Close();
         }
+
+        private void MenuABMCliente_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

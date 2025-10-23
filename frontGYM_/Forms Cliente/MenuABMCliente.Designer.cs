@@ -98,6 +98,7 @@
             Controls.Add(AltaCliente);
             Name = "MenuABMCliente";
             Text = "MenuABMCliente";
+            Load += MenuABMCliente_Load;
             ResumeLayout(false);
             PerformLayout();
         }

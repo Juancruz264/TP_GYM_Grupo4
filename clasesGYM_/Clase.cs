@@ -11,15 +11,18 @@ namespace clasesGYM_
         public int Id { get; set; } 
         public string Nombre { get; set; }
         public string Profesor { get; set; }
-        public Horario Horario { get; set; }
-        public static List<Clase> ObtenerHorario()
+        public TimeOnly HoraInicio { get; set; }
+        public TimeOnly HoraFin { get; set; }
+        public DiaSemana Dias { get; set; }
+        public enum DiaSemana
         {
-            return new List<Clase>
-            {
-                new Clase { Nombre = "De 7:00  a 12:00 " },
-                new Clase { Nombre = "De 13:00 a 16:00"},
-                new Clase { Nombre = "De 16:00 a 20:00"}
-            };
+            Lunes,
+            Martes,
+            Miercoles,
+            Jueves,
+            Viernes,
+            Sabado,
+            Domingo
         }
 
     }

@@ -44,7 +44,8 @@ namespace frontGYM_
                     Apellido = Apellido.Text,
                     Telefono = int.Parse(Telefono.Text),
                     TipoSuscripcion = tipoSuscripcion,
-                    FechaInicio = FechaInicio.Value
+                    FechaInicio = FechaInicio.Value,
+                    Clase = comboBox2.SelectedItem as Clase
                 };
                 ClienteRepository.AgregarCliente(nuevoCliente);
                 MessageBox.Show("Cliente registrado con éxito.");
@@ -55,6 +56,8 @@ namespace frontGYM_
         {
             comboBox1.DataSource = Suscripcion.ObtenerTipos();
             comboBox1.DisplayMember = "Nombre";
+            comboBox2.DataSource = ClaseRepository.ObtenerClases();
+            comboBox2.DisplayMember = "Nombre";
         }
     }
 }

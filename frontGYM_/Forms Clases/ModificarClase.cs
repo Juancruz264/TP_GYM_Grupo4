@@ -19,8 +19,7 @@ namespace frontGYM_.Forms_Clases
 
         private void dataGridView1_SelectionChanged(object sender, EventArgs e)
         {
-            AltaClase.txtNombre.Text = dataGridView1.CurrentRow.Cells["Nombre"].Value.ToString();
-            txtProfe
+           
         }
     }
 }
