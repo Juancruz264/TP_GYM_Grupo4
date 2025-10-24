@@ -43,5 +43,10 @@ namespace frontGYM_.Forms_Clases
                 MessageBox.Show("Clase creada con éxito.");
             }
         }
+
+        private void Volver_Click(object sender, EventArgs e)
+        {
+            this.Close();           
+        }
     }
 }

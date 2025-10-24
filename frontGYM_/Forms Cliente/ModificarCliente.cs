@@ -1,4 +1,5 @@
 ﻿using clasesGYM_;
+using clasesGYM_.Repositorios;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -31,12 +32,24 @@ namespace frontGYM_
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            Nombre.Text = dataGridView1.CurrentRow.Cells["Nombre"].Value.ToString();
+            Apellido.Text = dataGridView1.CurrentRow.Cells["Apellido"].Value.ToString();
+            Direccion.Text = dataGridView1.CurrentRow.Cells["Direccion"].Value.ToString();
+            Telefono.Text = dataGridView1.CurrentRow.Cells["Telefono"].Value.ToString();
         }
 
         private void Volver_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void dataGridView1_SelectionChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
         }
     }
 }

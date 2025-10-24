@@ -74,6 +74,7 @@
             ModificarClase.TabIndex = 10;
             ModificarClase.Text = "Modificar Clase";
             ModificarClase.UseVisualStyleBackColor = true;
+            ModificarClase.Click += ModificarClase_Click;
             // 
             // AltaClase
             // 

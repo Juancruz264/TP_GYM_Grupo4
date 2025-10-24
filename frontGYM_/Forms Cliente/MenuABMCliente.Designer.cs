@@ -63,6 +63,7 @@
             BajaCliente.TabIndex = 2;
             BajaCliente.Text = "Dar de baja cliente";
             BajaCliente.UseVisualStyleBackColor = true;
+            BajaCliente.Click += BajaCliente_Click;
             // 
             // label1
             // 

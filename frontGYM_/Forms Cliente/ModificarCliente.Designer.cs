@@ -34,8 +34,6 @@
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
-            label7 = new Label();
-            label8 = new Label();
             button1 = new Button();
             Volver = new Button();
             Nombre = new TextBox();
@@ -65,6 +63,7 @@
             dataGridView1.Size = new Size(542, 378);
             dataGridView1.TabIndex = 7;
             dataGridView1.CellClick += dataGridView1_CellClick;
+            dataGridView1.SelectionChanged += dataGridView1_SelectionChanged;
             // 
             // label2
             // 
@@ -102,32 +101,16 @@
             label5.TabIndex = 12;
             label5.Text = "Teléfono";
             // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Location = new Point(11, 252);
-            label7.Name = "label7";
-            label7.Size = new Size(84, 20);
-            label7.TabIndex = 13;
-            label7.Text = "Suscripción";
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Location = new Point(51, 299);
-            label8.Name = "label8";
-            label8.Size = new Size(44, 20);
-            label8.TabIndex = 14;
-            label8.Text = "Clase";
-            // 
             // button1
             // 
-            button1.Location = new Point(143, 382);
+            button1.BackColor = SystemColors.ScrollBar;
+            button1.Location = new Point(106, 372);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(165, 36);
             button1.TabIndex = 15;
             button1.Text = "Modificar!";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // Volver
             // 
@@ -181,8 +164,6 @@
             Controls.Add(Nombre);
             Controls.Add(Volver);
             Controls.Add(button1);
-            Controls.Add(label8);
-            Controls.Add(label7);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -205,8 +186,6 @@
         private Label label3;
         private Label label4;
         private Label label5;
-        private Label label7;
-        private Label label8;
         private Button button1;
         private Button Volver;
         private TextBox Nombre;

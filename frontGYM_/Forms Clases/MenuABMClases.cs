@@ -22,5 +22,10 @@ namespace frontGYM_
         {
             using (AltaClase altaClase = new AltaClase()) { altaClase.ShowDialog(); }
         }
+
+        private void ModificarClase_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

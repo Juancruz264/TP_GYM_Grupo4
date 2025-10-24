@@ -1,4 +1,5 @@
-﻿using System;
+﻿using frontGYM_.Forms_Cliente;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -38,6 +39,14 @@ namespace frontGYM_
             using (ModificarCliente modificarClienteForm = new ModificarCliente())
             {
                 modificarClienteForm.ShowDialog();
+            }
+        }
+
+        private void BajaCliente_Click(object sender, EventArgs e)
+        {
+            using (EliminarCliente eliminarClienteForm = new EliminarCliente())
+            {
+                eliminarClienteForm.ShowDialog();
             }
         }
     }

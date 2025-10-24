@@ -32,8 +32,15 @@ namespace clasesGYM_.Repositorios
         {
             using (var context = new AplicationDbContext())
             {
-                context.Clientes.Update(cliente);
-                context.SaveChanges();
+                var clienteExistente = context.Clientes.Find(cliente.Id);
+                if (clienteExistente != null)
+                {
+                    clienteExistente.Nombre = cliente.Nombre;
+                    clienteExistente.Apellido = cliente.Apellido;
+                    clienteExistente.Direccion = cliente.Direccion;
+                    clienteExistente.Telefono = cliente.Telefono;
+                    context.SaveChanges();
+                }
             }
         }
     }

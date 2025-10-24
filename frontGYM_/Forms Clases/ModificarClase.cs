@@ -19,7 +19,12 @@ namespace frontGYM_.Forms_Clases
 
         private void dataGridView1_SelectionChanged(object sender, EventArgs e)
         {
-           
+
+        }
+
+        private void Volver_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
