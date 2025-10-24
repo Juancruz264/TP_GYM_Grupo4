@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using clasesGYM_;
 
 namespace clasesGYM_.Repositorios
 {
@@ -42,6 +43,16 @@ namespace clasesGYM_.Repositorios
                 context.Suscripciones.Update(suscripcion);
                 context.SaveChanges();
             }
+        }
+        public bool VerificarEstado(SuscripcionCliente suscripcion)
+        {
+            var ahora = DateTime.Now;
+
+            if (suscripcion.FechaInicio > suscripcion.FechaFin)
+                return false;
+
+            bool Estado = ahora >= suscripcion.FechaInicio && ahora <= suscripcion.FechaFin;
+            return Estado;
         }
     }
 }

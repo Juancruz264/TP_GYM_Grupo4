@@ -57,3 +57,18 @@ C:\Users\ainxr\OneDrive\Desktop\TP\TP_GYM_Grupo4\clasesGYM_\bin\Debug\net8.0\cla
 C:\Users\ainxr\OneDrive\Desktop\TP\TP_GYM_Grupo4\clasesGYM_\bin\Debug\net8.0\clasesGYM_.pdb
 C:\Users\ainxr\OneDrive\Desktop\TP\TP_GYM_Grupo4\clasesGYM_\obj\Debug\net8.0\clasesGYM_.genruntimeconfig.cache
 C:\Users\ainxr\OneDrive\Desktop\TP\TP_GYM_Grupo4\clasesGYM_\obj\Debug\net8.0\ref\clasesGYM_.dll
+C:\Users\MacQueen\OneDrive\Escritorio\Nueva carpeta\TP_GYM_Grupo4\clasesGYM_\bin\Debug\net8.0\clasesGYM_.deps.json
+C:\Users\MacQueen\OneDrive\Escritorio\Nueva carpeta\TP_GYM_Grupo4\clasesGYM_\bin\Debug\net8.0\clasesGYM_.runtimeconfig.json
+C:\Users\MacQueen\OneDrive\Escritorio\Nueva carpeta\TP_GYM_Grupo4\clasesGYM_\bin\Debug\net8.0\clasesGYM_.dll
+C:\Users\MacQueen\OneDrive\Escritorio\Nueva carpeta\TP_GYM_Grupo4\clasesGYM_\bin\Debug\net8.0\clasesGYM_.pdb
+C:\Users\MacQueen\OneDrive\Escritorio\Nueva carpeta\TP_GYM_Grupo4\clasesGYM_\obj\Debug\net8.0\clasesGYM_.csproj.AssemblyReference.cache
+C:\Users\MacQueen\OneDrive\Escritorio\Nueva carpeta\TP_GYM_Grupo4\clasesGYM_\obj\Debug\net8.0\clasesGYM_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MacQueen\OneDrive\Escritorio\Nueva carpeta\TP_GYM_Grupo4\clasesGYM_\obj\Debug\net8.0\clasesGYM_.AssemblyInfoInputs.cache
+C:\Users\MacQueen\OneDrive\Escritorio\Nueva carpeta\TP_GYM_Grupo4\clasesGYM_\obj\Debug\net8.0\clasesGYM_.AssemblyInfo.cs
+C:\Users\MacQueen\OneDrive\Escritorio\Nueva carpeta\TP_GYM_Grupo4\clasesGYM_\obj\Debug\net8.0\clasesGYM_.csproj.CoreCompileInputs.cache
+C:\Users\MacQueen\OneDrive\Escritorio\Nueva carpeta\TP_GYM_Grupo4\clasesGYM_\obj\Debug\net8.0\clasesGYM_.sourcelink.json
+C:\Users\MacQueen\OneDrive\Escritorio\Nueva carpeta\TP_GYM_Grupo4\clasesGYM_\obj\Debug\net8.0\clasesGYM_.dll
+C:\Users\MacQueen\OneDrive\Escritorio\Nueva carpeta\TP_GYM_Grupo4\clasesGYM_\obj\Debug\net8.0\refint\clasesGYM_.dll
+C:\Users\MacQueen\OneDrive\Escritorio\Nueva carpeta\TP_GYM_Grupo4\clasesGYM_\obj\Debug\net8.0\clasesGYM_.pdb
+C:\Users\MacQueen\OneDrive\Escritorio\Nueva carpeta\TP_GYM_Grupo4\clasesGYM_\obj\Debug\net8.0\clasesGYM_.genruntimeconfig.cache
+C:\Users\MacQueen\OneDrive\Escritorio\Nueva carpeta\TP_GYM_Grupo4\clasesGYM_\obj\Debug\net8.0\ref\clasesGYM_.dll
