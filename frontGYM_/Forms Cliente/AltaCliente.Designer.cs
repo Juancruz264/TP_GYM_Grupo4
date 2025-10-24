@@ -47,6 +47,8 @@
             errorProvider1 = new ErrorProvider(components);
             FechaInicio = new DateTimePicker();
             label8 = new Label();
+            label9 = new Label();
+            dateTimePicker1 = new DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
             SuspendLayout();
             // 
@@ -186,7 +188,7 @@
             // 
             // FechaInicio
             // 
-            FechaInicio.Location = new Point(740, 81);
+            FechaInicio.Location = new Point(716, 79);
             FechaInicio.Name = "FechaInicio";
             FechaInicio.Size = new Size(273, 27);
             FechaInicio.TabIndex = 15;
@@ -196,15 +198,33 @@
             label8.AutoSize = true;
             label8.Location = new Point(589, 84);
             label8.Name = "label8";
-            label8.Size = new Size(122, 20);
+            label8.Size = new Size(87, 20);
             label8.TabIndex = 16;
-            label8.Text = "Fecha Inscripcion";
+            label8.Text = "Fecha Inicio";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(606, 133);
+            label9.Name = "label9";
+            label9.Size = new Size(70, 20);
+            label9.TabIndex = 17;
+            label9.Text = "Fecha Fin";
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Location = new Point(716, 128);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(273, 27);
+            dateTimePicker1.TabIndex = 18;
             // 
             // AltaCliente
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1025, 441);
+            Controls.Add(dateTimePicker1);
+            Controls.Add(label9);
             Controls.Add(label8);
             Controls.Add(FechaInicio);
             Controls.Add(Volver);
@@ -250,5 +270,7 @@
         private ErrorProvider errorProvider1;
         private Label label8;
         private DateTimePicker FechaInicio;
+        private DateTimePicker dateTimePicker1;
+        private Label label9;
     }
 }
