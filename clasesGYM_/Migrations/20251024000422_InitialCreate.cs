@@ -17,28 +17,15 @@ namespace clasesGYM_.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Profesor = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    HoraInicio = table.Column<TimeOnly>(type: "time", nullable: false),
+                    HoraFin = table.Column<TimeOnly>(type: "time", nullable: false),
+                    Dias = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Clases", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Clientes",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Dni = table.Column<int>(type: "int", nullable: false),
-                    Direccion = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Apellido = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    NumeroTelefono = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Clientes", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -73,73 +60,61 @@ namespace clasesGYM_.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Planes",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    MontoPlan = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    DiasSemana = table.Column<string>(type: "nvarchar(max)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Planes", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Horarios",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    diasclases = table.Column<int>(type: "int", nullable: false),
-                    HoraInicio = table.Column<TimeOnly>(type: "time", nullable: false),
-                    HoraFin = table.Column<TimeOnly>(type: "time", nullable: false),
-                    ClasesId = table.Column<int>(type: "int", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Horarios", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Horarios_Clases_ClasesId",
-                        column: x => x.ClasesId,
-                        principalTable: "Clases",
-                        principalColumn: "Id");
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Suscripciones",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    FechaInicio = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    FechaVen = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Tipo = table.Column<int>(type: "int", nullable: false),
-                    FacturaAsociadaId = table.Column<int>(type: "int", nullable: false),
-                    EstadoFactura = table.Column<int>(type: "int", nullable: false)
+                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Precio = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Vigencia = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Suscripciones", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Clientes",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Dni = table.Column<int>(type: "int", nullable: false),
+                    Direccion = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Apellido = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Telefono = table.Column<int>(type: "int", nullable: false),
+                    TipoSuscripcionId = table.Column<int>(type: "int", nullable: false),
+                    FechaInicio = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    ClaseId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Clientes", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Suscripciones_Facturas_FacturaAsociadaId",
-                        column: x => x.FacturaAsociadaId,
-                        principalTable: "Facturas",
+                        name: "FK_Clientes_Clases_ClaseId",
+                        column: x => x.ClaseId,
+                        principalTable: "Clases",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Clientes_Suscripciones_TipoSuscripcionId",
+                        column: x => x.TipoSuscripcionId,
+                        principalTable: "Suscripciones",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Horarios_ClasesId",
-                table: "Horarios",
-                column: "ClasesId");
+                name: "IX_Clientes_ClaseId",
+                table: "Clientes",
+                column: "ClaseId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Suscripciones_FacturaAsociadaId",
-                table: "Suscripciones",
-                column: "FacturaAsociadaId");
+                name: "IX_Clientes_TipoSuscripcionId",
+                table: "Clientes",
+                column: "TipoSuscripcionId");
         }
 
         /// <inheritdoc />
@@ -149,22 +124,16 @@ namespace clasesGYM_.Migrations
                 name: "Clientes");
 
             migrationBuilder.DropTable(
-                name: "Horarios");
+                name: "Facturas");
 
             migrationBuilder.DropTable(
                 name: "Pagos");
 
             migrationBuilder.DropTable(
-                name: "Planes");
-
-            migrationBuilder.DropTable(
-                name: "Suscripciones");
-
-            migrationBuilder.DropTable(
                 name: "Clases");
 
             migrationBuilder.DropTable(
-                name: "Facturas");
+                name: "Suscripciones");
         }
     }
 }

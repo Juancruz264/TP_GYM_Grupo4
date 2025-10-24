@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace clasesGYM_.Migrations
 {
     [DbContext(typeof(AplicationDbContext))]
-    [Migration("20251019192524_InitialCreate")]
+    [Migration("20251024000422_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -24,7 +24,7 @@ namespace clasesGYM_.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("clasesGYM_.Clases", b =>
+            modelBuilder.Entity("clasesGYM_.Clase", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -32,7 +32,20 @@ namespace clasesGYM_.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("Dias")
+                        .HasColumnType("int");
+
+                    b.Property<TimeOnly>("HoraFin")
+                        .HasColumnType("time");
+
+                    b.Property<TimeOnly>("HoraInicio")
+                        .HasColumnType("time");
+
                     b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Profesor")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -53,6 +66,9 @@ namespace clasesGYM_.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("ClaseId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Direccion")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -60,14 +76,24 @@ namespace clasesGYM_.Migrations
                     b.Property<int>("Dni")
                         .HasColumnType("int");
 
+                    b.Property<DateTime>("FechaInicio")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Nombre")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("NumeroTelefono")
+                    b.Property<int>("Telefono")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TipoSuscripcionId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ClaseId");
+
+                    b.HasIndex("TipoSuscripcionId");
 
                     b.ToTable("Clientes", (string)null);
                 });
@@ -97,33 +123,6 @@ namespace clasesGYM_.Migrations
                     b.ToTable("Facturas", (string)null);
                 });
 
-            modelBuilder.Entity("clasesGYM_.Horario", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int?>("ClasesId")
-                        .HasColumnType("int");
-
-                    b.Property<TimeOnly>("HoraFin")
-                        .HasColumnType("time");
-
-                    b.Property<TimeOnly>("HoraInicio")
-                        .HasColumnType("time");
-
-                    b.Property<int>("diasclases")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ClasesId");
-
-                    b.ToTable("Horarios", (string)null);
-                });
-
             modelBuilder.Entity("clasesGYM_.Pago", b =>
                 {
                     b.Property<int>("Id")
@@ -147,81 +146,46 @@ namespace clasesGYM_.Migrations
                     b.ToTable("Pagos", (string)null);
                 });
 
-            modelBuilder.Entity("clasesGYM_.Plan", b =>
+            modelBuilder.Entity("clasesGYM_.Suscripcion", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("DiasSemana")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("MontoPlan")
-                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Nombre")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.Property<decimal>("Precio")
+                        .HasColumnType("decimal(18,2)");
 
-                    b.ToTable("Planes", (string)null);
-                });
-
-            modelBuilder.Entity("clasesGYM_.Suscripcion", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("EstadoFactura")
-                        .HasColumnType("int");
-
-                    b.Property<int>("FacturaAsociadaId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("FechaInicio")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("FechaVen")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("Tipo")
+                    b.Property<int>("Vigencia")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("FacturaAsociadaId");
 
                     b.ToTable("Suscripciones", (string)null);
                 });
 
-            modelBuilder.Entity("clasesGYM_.Horario", b =>
+            modelBuilder.Entity("clasesGYM_.Cliente", b =>
                 {
-                    b.HasOne("clasesGYM_.Clases", null)
-                        .WithMany("Horarios")
-                        .HasForeignKey("ClasesId");
-                });
-
-            modelBuilder.Entity("clasesGYM_.Suscripcion", b =>
-                {
-                    b.HasOne("clasesGYM_.Factura", "FacturaAsociada")
+                    b.HasOne("clasesGYM_.Clase", "Clase")
                         .WithMany()
-                        .HasForeignKey("FacturaAsociadaId")
+                        .HasForeignKey("ClaseId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("FacturaAsociada");
-                });
+                    b.HasOne("clasesGYM_.Suscripcion", "TipoSuscripcion")
+                        .WithMany()
+                        .HasForeignKey("TipoSuscripcionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-            modelBuilder.Entity("clasesGYM_.Clases", b =>
-                {
-                    b.Navigation("Horarios");
+                    b.Navigation("Clase");
+
+                    b.Navigation("TipoSuscripcion");
                 });
 #pragma warning restore 612, 618
         }

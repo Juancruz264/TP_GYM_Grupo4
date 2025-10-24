@@ -54,7 +54,7 @@ namespace frontGYM_
 
         private void AltaCliente_Load(object sender, EventArgs e)
         {
-            comboBox1.DataSource = Suscripcion.ObtenerTipos();
+            comboBox1.DataSource = SuscripcionRepository.ObtenerSuscripciones();
             comboBox1.DisplayMember = "Nombre";
             comboBox2.DataSource = ClaseRepository.ObtenerClases();
             comboBox2.DisplayMember = "Nombre";
