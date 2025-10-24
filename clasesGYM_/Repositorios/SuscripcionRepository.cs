@@ -43,12 +43,5 @@ namespace clasesGYM_.Repositorios
                 context.SaveChanges();
             }
         }
-        public static bool EstadoSuscripcion(int id)
-        {
-            using (var context = new AplicationDbContext())
-            {
-                if ()
-            }
-        }
     }
 }

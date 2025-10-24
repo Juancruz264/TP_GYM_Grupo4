@@ -169,6 +169,14 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "SuscripcionAlumno.cs",
@@ -178,16 +186,7 @@
               "RelativeToolTip": "SuscripcionAlumno.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T20:26:23.584Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2025-10-24T20:26:23.584Z"
             },
             {
               "$type": "Document",
@@ -198,8 +197,7 @@
               "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Cliente\\AltaCliente.cs [Dise\u00F1o]",
               "RelativeToolTip": "..\\frontGYM_\\Forms Cliente\\AltaCliente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T20:24:45.819Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-10-24T20:24:45.819Z"
             },
             {
               "$type": "Document",
@@ -223,8 +221,7 @@
               "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Clases\\ModificarClase.cs [Dise\u00F1o]",
               "RelativeToolTip": "..\\frontGYM_\\Forms Clases\\ModificarClase.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T01:16:49.284Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-10-24T01:16:49.284Z"
             },
             {
               "$type": "Document",
@@ -234,7 +231,7 @@
               "RelativeDocumentMoniker": "Repositorios\\SuscripcionRepository.cs",
               "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\SuscripcionRepository.cs",
               "RelativeToolTip": "Repositorios\\SuscripcionRepository.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDEAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowB8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-24T00:09:44.553Z",
               "EditorCaption": ""
@@ -331,8 +328,7 @@
               "RelativeToolTip": "..\\frontGYM_\\Forms Clases\\ModificarClase.Designer.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAiwEIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T01:16:35.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T01:16:35.963Z"
             },
             {
               "$type": "Document",
