@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             Volver = new Button();
-            Profesor = new TextBox();
-            Nombre = new TextBox();
-            label6 = new Label();
+            button1 = new Button();
+            dateTimePicker2 = new DateTimePicker();
+            label5 = new Label();
+            dateTimePicker1 = new DateTimePicker();
+            label4 = new Label();
             label3 = new Label();
+            comboBox1 = new ComboBox();
+            Profesor = new TextBox();
             label2 = new Label();
             label1 = new Label();
-            comboBox1 = new ComboBox();
-            dateTimePicker1 = new DateTimePicker();
-            dateTimePicker2 = new DateTimePicker();
-            label4 = new Label();
-            label5 = new Label();
-            button1 = new Button();
+            Nombre = new TextBox();
+            label6 = new Label();
             SuspendLayout();
             // 
             // Volver
@@ -56,29 +56,47 @@
             Volver.UseVisualStyleBackColor = false;
             Volver.Click += Volver_Click;
             // 
-            // Profesor
+            // button1
             // 
-            Profesor.Location = new Point(275, 128);
-            Profesor.Name = "Profesor";
-            Profesor.Size = new Size(298, 27);
-            Profesor.TabIndex = 20;
+            button1.BackColor = SystemColors.ScrollBar;
+            button1.Location = new Point(318, 339);
+            button1.Name = "button1";
+            button1.Size = new Size(165, 36);
+            button1.TabIndex = 29;
+            button1.Text = "Modificar!";
+            button1.UseVisualStyleBackColor = false;
             // 
-            // Nombre
+            // dateTimePicker2
             // 
-            Nombre.Location = new Point(275, 82);
-            Nombre.Name = "Nombre";
-            Nombre.Size = new Size(298, 27);
-            Nombre.TabIndex = 19;
+            dateTimePicker2.Location = new Point(275, 279);
+            dateTimePicker2.Name = "dateTimePicker2";
+            dateTimePicker2.Size = new Size(298, 27);
+            dateTimePicker2.TabIndex = 26;
             // 
-            // label6
+            // label5
             // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Verdana", 10.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label6.Location = new Point(318, 48);
-            label6.Name = "label6";
-            label6.Size = new Size(138, 20);
-            label6.TabIndex = 18;
-            label6.Text = "CREAR CLASE";
+            label5.AutoSize = true;
+            label5.Location = new Point(109, 284);
+            label5.Name = "label5";
+            label5.Size = new Size(143, 20);
+            label5.TabIndex = 28;
+            label5.Text = "Hora de finalización";
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Location = new Point(275, 225);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(297, 27);
+            dateTimePicker1.TabIndex = 25;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(149, 230);
+            label4.Name = "label4";
+            label4.Size = new Size(103, 20);
+            label4.TabIndex = 27;
+            label4.Text = "Hora de inicio";
             // 
             // label3
             // 
@@ -88,6 +106,21 @@
             label3.Size = new Size(38, 20);
             label3.TabIndex = 17;
             label3.Text = "Días";
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(275, 176);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(297, 28);
+            comboBox1.TabIndex = 24;
+            // 
+            // Profesor
+            // 
+            Profesor.Location = new Point(275, 128);
+            Profesor.Name = "Profesor";
+            Profesor.Size = new Size(298, 27);
+            Profesor.TabIndex = 20;
             // 
             // label2
             // 
@@ -107,55 +140,22 @@
             label1.TabIndex = 15;
             label1.Text = "Nombre";
             // 
-            // comboBox1
+            // Nombre
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(275, 176);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(297, 28);
-            comboBox1.TabIndex = 24;
+            Nombre.Location = new Point(275, 82);
+            Nombre.Name = "Nombre";
+            Nombre.Size = new Size(298, 27);
+            Nombre.TabIndex = 19;
             // 
-            // dateTimePicker1
+            // label6
             // 
-            dateTimePicker1.Location = new Point(275, 225);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(297, 27);
-            dateTimePicker1.TabIndex = 25;
-            // 
-            // dateTimePicker2
-            // 
-            dateTimePicker2.Location = new Point(275, 279);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(298, 27);
-            dateTimePicker2.TabIndex = 26;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(149, 230);
-            label4.Name = "label4";
-            label4.Size = new Size(103, 20);
-            label4.TabIndex = 27;
-            label4.Text = "Hora de inicio";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(109, 284);
-            label5.Name = "label5";
-            label5.Size = new Size(143, 20);
-            label5.TabIndex = 28;
-            label5.Text = "Hora de finalización";
-            // 
-            // button1
-            // 
-            button1.BackColor = SystemColors.ScrollBar;
-            button1.Location = new Point(318, 339);
-            button1.Name = "button1";
-            button1.Size = new Size(165, 36);
-            button1.TabIndex = 29;
-            button1.Text = "Modificar!";
-            button1.UseVisualStyleBackColor = false;
+            label6.AutoSize = true;
+            label6.Font = new Font("Verdana", 10.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label6.Location = new Point(318, 48);
+            label6.Name = "label6";
+            label6.Size = new Size(138, 20);
+            label6.TabIndex = 18;
+            label6.Text = "CREAR CLASE";
             // 
             // AltaClase
             // 
@@ -182,20 +182,19 @@
         }
 
         #endregion
-
-        private Button Volver;
         private TextBox Horario;
-        private TextBox Profesor;
-        private TextBox Nombre;
-        private Label label6;
+        private Button Volver;
+        private Button button1;
+        private DateTimePicker dateTimePicker2;
+        private Label label5;
+        private DateTimePicker dateTimePicker1;
+        private Label label4;
         private Label label3;
+        private ComboBox comboBox1;
+        private TextBox Profesor;
         private Label label2;
         private Label label1;
-        private ComboBox comboBox1;
-        private DateTimePicker dateTimePicker1;
-        private DateTimePicker dateTimePicker2;
-        private Label label4;
-        private Label label5;
-        private Button button1;
+        private TextBox Nombre;
+        private Label label6;
     }
 }

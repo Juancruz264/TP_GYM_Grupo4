@@ -45,7 +45,6 @@ namespace frontGYM_
                     Telefono = int.Parse(Telefono.Text),
                     TipoSuscripcion = tipoSuscripcion,
                     FechaInicio = FechaInicio.Value,
-                    Clase = comboBox2.SelectedItem as Clase
                 };
                 ClienteRepository.AgregarCliente(nuevoCliente);
                 MessageBox.Show("Cliente registrado con éxito.");

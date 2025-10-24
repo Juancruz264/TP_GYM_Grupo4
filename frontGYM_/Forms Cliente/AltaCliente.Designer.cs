@@ -47,8 +47,6 @@
             errorProvider1 = new ErrorProvider(components);
             FechaInicio = new DateTimePicker();
             label8 = new Label();
-            comboBox2 = new ComboBox();
-            label9 = new Label();
             ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
             SuspendLayout();
             // 
@@ -202,30 +200,11 @@
             label8.TabIndex = 16;
             label8.Text = "Fecha Inscripcion";
             // 
-            // comboBox2
-            // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(740, 130);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(273, 28);
-            comboBox2.TabIndex = 17;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Location = new Point(661, 133);
-            label9.Name = "label9";
-            label9.Size = new Size(44, 20);
-            label9.TabIndex = 18;
-            label9.Text = "Clase";
-            // 
             // AltaCliente
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1025, 441);
-            Controls.Add(label9);
-            Controls.Add(comboBox2);
             Controls.Add(label8);
             Controls.Add(FechaInicio);
             Controls.Add(Volver);
@@ -271,7 +250,5 @@
         private ErrorProvider errorProvider1;
         private Label label8;
         private DateTimePicker FechaInicio;
-        private Label label9;
-        private ComboBox comboBox2;
     }
 }
