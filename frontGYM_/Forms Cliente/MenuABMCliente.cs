@@ -32,9 +32,13 @@ namespace frontGYM_
             this.Close();
         }
 
-        private void MenuABMCliente_Load(object sender, EventArgs e)
-        {
 
+        private void ActualizarCliente_Click(object sender, EventArgs e)
+        {
+            using (ModificarCliente modificarClienteForm = new ModificarCliente())
+            {
+                modificarClienteForm.ShowDialog();
+            }
         }
     }
 }

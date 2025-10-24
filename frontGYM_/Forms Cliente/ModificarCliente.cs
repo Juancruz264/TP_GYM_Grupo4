@@ -33,5 +33,10 @@ namespace frontGYM_
         {
 
         }
+
+        private void Volver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -215,7 +215,6 @@ C:\Users\ainxr\OneDrive\Desktop\TP\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-wind
 C:\Users\ainxr\OneDrive\Desktop\TP\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\frontGYM_.AltaCliente.resources
 C:\Users\ainxr\OneDrive\Desktop\TP\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\frontGYM_.MenuABMCliente.resources
 C:\Users\ainxr\OneDrive\Desktop\TP\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\frontGYM_.ModificarCliente.resources
-C:\Users\ainxr\OneDrive\Desktop\TP\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\frontGYM_.ModificarDatosCliente.resources
 C:\Users\ainxr\OneDrive\Desktop\TP\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\frontGYM_.Inicio.resources
 C:\Users\ainxr\OneDrive\Desktop\TP\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\frontGYM_.Menu.resources
 C:\Users\ainxr\OneDrive\Desktop\TP\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\frontGYM_.MenuABMSuscripcion.resources

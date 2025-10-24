@@ -53,6 +53,7 @@
             ActualizarCliente.TabIndex = 1;
             ActualizarCliente.Text = "Actualizar cliente";
             ActualizarCliente.UseVisualStyleBackColor = true;
+            ActualizarCliente.Click += ActualizarCliente_Click;
             // 
             // BajaCliente
             // 
@@ -98,7 +99,6 @@
             Controls.Add(AltaCliente);
             Name = "MenuABMCliente";
             Text = "MenuABMCliente";
-            Load += MenuABMCliente_Load;
             ResumeLayout(false);
             PerformLayout();
         }
