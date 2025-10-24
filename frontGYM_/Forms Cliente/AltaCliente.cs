@@ -55,8 +55,6 @@ namespace frontGYM_
         {
             comboBox1.DataSource = SuscripcionRepository.ObtenerSuscripciones();
             comboBox1.DisplayMember = "Nombre";
-            comboBox2.DataSource = ClaseRepository.ObtenerClases();
-            comboBox2.DisplayMember = "Nombre";
         }
     }
 }
