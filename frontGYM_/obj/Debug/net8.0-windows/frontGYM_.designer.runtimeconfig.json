@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\ainxr\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\ainxr\\.nuget\\packages",
+      "C:\\Users\\MacQueen\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\MacQueen\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {

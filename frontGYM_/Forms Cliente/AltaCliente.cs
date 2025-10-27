@@ -27,7 +27,7 @@ namespace frontGYM_
 
         private void Registro_Click(object sender, EventArgs e)
         {
-            using (AplicationDbContext context = new AplicationDbContext())
+            try
             {
                 var tipoSuscripcion = comboBox1.SelectedItem as Suscripcion;
                 if (tipoSuscripcion == null)
@@ -36,18 +36,45 @@ namespace frontGYM_
                     return;
                 }
 
+                // Validar campos obligatorios
+                if (string.IsNullOrWhiteSpace(Nombre.Text) || string.IsNullOrWhiteSpace(Apellido.Text))
+                {
+                    MessageBox.Show("Por favor, complete todos los campos obligatorios.");
+                    return;
+                }
+
+                // Crear cliente (sin suscripción)
                 var nuevoCliente = new Cliente
                 {
                     Dni = int.Parse(Dni.Text),
                     Direccion = Direccion.Text,
-                    Nombre = Nombre.Text,
-                    Apellido = Apellido.Text,
-                    Telefono = int.Parse(Telefono.Text),
-                    TipoSuscripcion = tipoSuscripcion,
-                    FechaInicio = FechaInicio.Value,
+                    Nombre = Nombre.Text.Trim(),
+                    Apellido = Apellido.Text.Trim(),
+                    Telefono = int.Parse(Telefono.Text)
                 };
-                ClienteRepository.AgregarCliente(nuevoCliente);
+
+                var fechaInicio = FechaInicio.Value;
+                // Calcular fecha de fin por defecto por 1 mes
+                var fechaFin = fechaInicio.AddMonths(1);
+
+                // Usar el nuevo método que maneja la relación N:M
+                SuscripcionClienteRepository.AgregarClienteConSuscripcion(
+                    nuevoCliente,
+                    tipoSuscripcion.Id,
+                    fechaInicio,
+                    fechaFin
+                );
+
                 MessageBox.Show("Cliente registrado con éxito.");
+                this.Close();
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Por favor, ingrese valores numéricos válidos para DNI y Teléfono.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al registrar el cliente: {ex.Message}");
             }
         }
 

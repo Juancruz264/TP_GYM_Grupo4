@@ -13,8 +13,9 @@ namespace clasesGYM_
         public string Direccion { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
-        public int Telefono { get; set; } 
-        public Suscripcion TipoSuscripcion { get; set; }
-        public DateTime FechaInicio { get; set; }
+        public int Telefono { get; set; }
+
+        // Navegación N:M a través de SuscripcionCliente
+        public List<SuscripcionCliente> Suscripciones { get; set; } = new List<SuscripcionCliente>();
     }
 }

@@ -4,9 +4,6 @@
     <Compile Update="Forms Cliente\AltaCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="AltaSuscripcion.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Forms Clases\AltaClase.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -14,6 +11,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms Cliente\EliminarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms Suscripciones\AltaSuscripcion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Menu.cs">
@@ -28,7 +28,7 @@
     <Compile Update="Forms Cliente\MenuABMCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="MenuABMSuscripcion.cs">
+    <Compile Update="Forms Suscripciones\MenuABMSuscripcion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms Cliente\ModificarCliente.cs">
