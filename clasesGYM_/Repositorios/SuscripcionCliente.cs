@@ -9,7 +9,7 @@ namespace clasesGYM_.Repositorios
 {
     public class SuscripcionClienteRepository
     {
-        // MÉTODO: Agregar suscripción a cliente
+        // MÉTODO: Agregar suscripción a cliente - NO se Usa
         public static void AgregarSuscripcionCliente(SuscripcionCliente suscripcionCliente)
         {
             using (var context = new AplicationDbContext())
@@ -33,39 +33,60 @@ namespace clasesGYM_.Repositorios
             }
         }
 
-        // MÉTODO: Agregar cliente con suscripción (para frontend)
+        // MÉTODO: Agregar cliente con suscripción (para frontend) este se usa porque el front ya pide una suscripcion
         public static void AgregarClienteConSuscripcion(Cliente cliente, int suscripcionId, DateTime fechaInicio, DateTime fechaFin)
         {
-            using (var context = new AplicationDbContext())
+            using var context = new AplicationDbContext();
+
+                // 1. Intentar encontrar cliente existente por DNI (si se proporcionó)
+            Cliente clienteDb = null;
+            if (cliente.Dni != 0)
             {
-                // 1. Crear cliente
-                context.Clientes.Add(cliente);
-                context.SaveChanges();
-
-                // 2. Verificar si ya tiene una suscripción activa (por si acaso)
-                var ahora = DateTime.Now;
-                var suscripcionActiva = context.SuscripcionClientes
-                    .FirstOrDefault(sc => sc.ClienteId == cliente.Id &&
-                                         ahora >= sc.FechaInicio &&
-                                         ahora <= sc.FechaFin);
-
-                if (suscripcionActiva != null)
-                {
-                    // Si ya tiene una activa, terminar la anterior
-                    suscripcionActiva.FechaFin = ahora;
-                }
-
-                // 3. Crear nueva suscripción
-                var suscripcionCliente = new SuscripcionCliente
-                {
-                    ClienteId = cliente.Id,
-                    SuscripcionId = suscripcionId,
-                    FechaInicio = fechaInicio,
-                    FechaFin = fechaFin
-                };
-                context.SuscripcionClientes.Add(suscripcionCliente);
-                context.SaveChanges();
+                clienteDb = context.Clientes.FirstOrDefault(c => c.Dni == cliente.Dni);
             }
+
+
+            // 2. Si no existe, añadir nuevo cliente al contexto (aun no se guarda)
+            if (clienteDb == null)
+            {
+                clienteDb = cliente;
+                context.Clientes.Add(clienteDb);
+            }
+            else
+            {
+                // Opcional: actualizar datos básicos del cliente existente con los datos enviados
+                clienteDb.Nombre = cliente.Nombre;
+                clienteDb.Apellido = cliente.Apellido;
+                clienteDb.Direccion = cliente.Direccion;
+                clienteDb.Telefono = cliente.Telefono;
+                // No es necesario llamar a context.Update(clienteDb) si la entidad está rastreada.
+            }
+
+            // 4. Terminar suscripción activa si existe
+            var ahora = DateTime.Now;
+            var suscripcionActiva = context.SuscripcionClientes
+                .FirstOrDefault(sc => sc.ClienteId == clienteDb.Id &&
+                                     ahora >= sc.FechaInicio &&
+                                     ahora <= sc.FechaFin);
+
+            if (suscripcionActiva != null)
+            {
+                suscripcionActiva.FechaFin = ahora; // aca se pisa la fecha fin por la de hoy
+            }
+
+            // 5. Crear nueva suscripción y relacionarla con el cliente (navegación)
+            var suscripcionCliente = new SuscripcionCliente
+            {
+                SuscripcionId = suscripcionId,
+                FechaInicio = fechaInicio,
+                FechaFin = fechaFin,
+                Cliente = clienteDb
+            };
+
+            context.SuscripcionClientes.Add(suscripcionCliente);
+
+            // 6. Un único SaveChanges persiste todo (insert cliente si es nuevo, update y nueva suscripción)
+            context.SaveChanges();
         }
 
         // MÉTODO: Obtener todas las suscripciones de un cliente

@@ -9,7 +9,9 @@ namespace clasesGYM_.Repositorios
 {
     public class ClienteRepository
     {
-        // MÉTODO: Agregar cliente
+        // MÉTODO: Agregar cliente - no se usa porque se diseñó
+        // que hay que agregar un cliente con una suscripción directamente
+        // por ende el agregado de cliente se hace en SuscripcionClienteRepository
         public static void AgregarCliente(Cliente cliente)
         {
             using (var context = new AplicationDbContext())
