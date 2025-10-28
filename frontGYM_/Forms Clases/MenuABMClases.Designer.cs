@@ -45,6 +45,7 @@
             Volver.TabIndex = 13;
             Volver.Text = "volver!";
             Volver.UseVisualStyleBackColor = false;
+            Volver.Click += Volver_Click;
             // 
             // label1
             // 

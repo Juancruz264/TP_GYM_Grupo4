@@ -21,7 +21,7 @@ namespace clasesGYM_.Migrations
                     Profesor = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     HoraInicio = table.Column<TimeOnly>(type: "time", nullable: false),
                     HoraFin = table.Column<TimeOnly>(type: "time", nullable: false),
-                    Dias = table.Column<int>(type: "int", nullable: false)
+                    _Dias = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {

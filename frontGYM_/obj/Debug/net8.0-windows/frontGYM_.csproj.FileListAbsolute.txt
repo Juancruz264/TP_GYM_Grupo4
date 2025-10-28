@@ -281,7 +281,6 @@ C:\Users\ainxr\OneDrive\Desktop\TP\TP_GYM_Grupo4\frontGYM_\bin\Debug\net8.0-wind
 C:\Users\ainxr\OneDrive\Desktop\TP\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\frontGYM_.csproj.Up2Date
 C:\Users\ainxr\OneDrive\Desktop\TP\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\frontGYM_.genruntimeconfig.cache
 C:\Users\ainxr\OneDrive\Desktop\TP\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\ref\frontGYM_.dll
-C:\Users\ainxr\OneDrive\Desktop\TP\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\frontGYM_.Forms_Cliente.EliminarCliente.resources
 C:\Users\ainxr\OneDrive\Desktop\TP\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\frontGYM_.Pago.CargarPago.resources
 C:\Users\ainxr\OneDrive\Desktop\TP\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\frontGYM_.Reportes.Clientes.resources
 C:\Users\ainxr\OneDrive\Desktop\TP\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\frontGYM_.Reportes.Ganancias.resources

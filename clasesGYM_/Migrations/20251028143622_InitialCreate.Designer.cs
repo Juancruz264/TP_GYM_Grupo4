@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace clasesGYM_.Migrations
 {
     [DbContext(typeof(AplicationDbContext))]
-    [Migration("20251025233452_InitialCreate")]
+    [Migration("20251028143622_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -32,9 +32,6 @@ namespace clasesGYM_.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("Dias")
-                        .HasColumnType("int");
-
                     b.Property<TimeOnly>("HoraFin")
                         .HasColumnType("time");
 
@@ -48,6 +45,9 @@ namespace clasesGYM_.Migrations
                     b.Property<string>("Profesor")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("_Dias")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             Volver = new Button();
-            dateTimePicker2 = new DateTimePicker();
+            HoraFin = new DateTimePicker();
             label5 = new Label();
-            dateTimePicker1 = new DateTimePicker();
+            HoraInicio = new DateTimePicker();
             label4 = new Label();
             label3 = new Label();
             Profesor = new TextBox();
@@ -56,12 +56,14 @@
             Volver.UseVisualStyleBackColor = false;
             Volver.Click += Volver_Click;
             // 
-            // dateTimePicker2
+            // HoraFin
             // 
-            dateTimePicker2.Location = new Point(274, 332);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(298, 27);
-            dateTimePicker2.TabIndex = 26;
+            HoraFin.Format = DateTimePickerFormat.Time;
+            HoraFin.Location = new Point(274, 332);
+            HoraFin.Name = "HoraFin";
+            HoraFin.ShowUpDown = true;
+            HoraFin.Size = new Size(298, 27);
+            HoraFin.TabIndex = 26;
             // 
             // label5
             // 
@@ -72,12 +74,14 @@
             label5.TabIndex = 28;
             label5.Text = "Hora de finalización";
             // 
-            // dateTimePicker1
+            // HoraInicio
             // 
-            dateTimePicker1.Location = new Point(276, 282);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(297, 27);
-            dateTimePicker1.TabIndex = 25;
+            HoraInicio.Format = DateTimePickerFormat.Time;
+            HoraInicio.Location = new Point(276, 282);
+            HoraInicio.Name = "HoraInicio";
+            HoraInicio.ShowUpDown = true;
+            HoraInicio.Size = new Size(297, 27);
+            HoraInicio.TabIndex = 25;
             // 
             // label4
             // 
@@ -149,6 +153,7 @@
             Registro.TabIndex = 29;
             Registro.Text = "Registrar!";
             Registro.UseVisualStyleBackColor = false;
+            Registro.Click += Registro_Click_1;
             // 
             // listBoxDias
             // 
@@ -168,8 +173,8 @@
             Controls.Add(Registro);
             Controls.Add(label5);
             Controls.Add(label4);
-            Controls.Add(dateTimePicker2);
-            Controls.Add(dateTimePicker1);
+            Controls.Add(HoraFin);
+            Controls.Add(HoraInicio);
             Controls.Add(Volver);
             Controls.Add(Profesor);
             Controls.Add(Nombre);
@@ -179,6 +184,7 @@
             Controls.Add(label1);
             Name = "AltaClase";
             Text = "AltaClase";
+            Load += AltaClase_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -186,9 +192,9 @@
         #endregion
         private TextBox Horario;
         private Button Volver;
-        private DateTimePicker dateTimePicker2;
+        private DateTimePicker HoraFin;
         private Label label5;
-        private DateTimePicker dateTimePicker1;
+        private DateTimePicker HoraInicio;
         private Label label4;
         private Label label3;
         private TextBox Profesor;

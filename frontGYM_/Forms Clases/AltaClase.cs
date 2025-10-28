@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using Microsoft.EntityFrameworkCore;
 using clasesGYM_.Repositorios;
 using clasesGYM_;
+using static clasesGYM_.Clase;
 
 namespace frontGYM_.Forms_Clases
 {
@@ -28,14 +29,24 @@ namespace frontGYM_.Forms_Clases
 
         }
 
-        private void Registro_Click(object sender, EventArgs e)
+
+        private void Volver_Click(object sender, EventArgs e)
         {
+            this.Close();
+        }
+
+        private void Registro_Click_1(object sender, EventArgs e)
+        {
+
             Dias diasSeleccionados = Dias.Ninguno;
 
             foreach (var item in listBoxDias.SelectedItems)
             {
-                Dias dia = (Dias)Enum.Parse(typeof(Dias), item.ToString());
-                diasSeleccionados |= dia;
+                if (item is not null)
+                {
+                    Dias dia = (Dias)Enum.Parse(typeof(Dias), item.ToString()!);
+                    diasSeleccionados |= dia;
+                }
             }
             using (AplicationDbContext context = new AplicationDbContext())
             {
@@ -43,16 +54,14 @@ namespace frontGYM_.Forms_Clases
                 {
                     Nombre = Nombre.Text,
                     Profesor = Profesor.Text,
-                    Dias = diasSeleccionados
+                    _Dias = diasSeleccionados,
+                    HoraInicio = TimeOnly.Parse(HoraInicio.Text),
+                    HoraFin = TimeOnly.Parse(HoraFin.Text)
                 };
                 ClaseRepository.AgregarClase(nuevaClase);
                 MessageBox.Show("Clase creada con éxito.");
             }
-        }
-
-        private void Volver_Click(object sender, EventArgs e)
-        {
-            this.Close();           
+            this.Close();
         }
     }
 }

@@ -13,10 +13,10 @@ namespace clasesGYM_
         public string Profesor { get; set; }
         public TimeOnly HoraInicio { get; set; }
         public TimeOnly HoraFin { get; set; }
-        public DiasSemana Dias { get; set; }
+        public Dias _Dias { get; set; }
 
         [Flags]
-        public enum DiasSemana
+        public enum Dias
         {
             Ninguno = 0,
             Lunes = 1,

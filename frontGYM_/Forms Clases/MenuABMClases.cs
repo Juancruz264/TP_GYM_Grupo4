@@ -27,5 +27,10 @@ namespace frontGYM_
         {
             using (ModificarClase modificarClase = new ModificarClase()) { modificarClase.ShowDialog(); }
         }
+
+        private void Volver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

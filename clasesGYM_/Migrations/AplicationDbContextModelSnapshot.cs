@@ -29,9 +29,6 @@ namespace clasesGYM_.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("Dias")
-                        .HasColumnType("int");
-
                     b.Property<TimeOnly>("HoraFin")
                         .HasColumnType("time");
 
@@ -45,6 +42,9 @@ namespace clasesGYM_.Migrations
                     b.Property<string>("Profesor")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("_Dias")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

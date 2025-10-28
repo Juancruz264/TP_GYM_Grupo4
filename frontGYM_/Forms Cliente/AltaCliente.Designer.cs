@@ -46,7 +46,7 @@
             Volver = new Button();
             errorProvider1 = new ErrorProvider(components);
             label8 = new Label();
-            dateTimePicker1 = new DateTimePicker();
+            FechaInicio = new DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
             SuspendLayout();
             // 
@@ -195,19 +195,19 @@
             label8.TabIndex = 15;
             label8.Text = "Fecha Inicio";
             // 
-            // dateTimePicker1
+            // FechaInicio
             // 
-            dateTimePicker1.Location = new Point(275, 332);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(298, 27);
-            dateTimePicker1.TabIndex = 16;
+            FechaInicio.Location = new Point(275, 332);
+            FechaInicio.Name = "FechaInicio";
+            FechaInicio.Size = new Size(298, 27);
+            FechaInicio.TabIndex = 16;
             // 
             // AltaCliente
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(808, 487);
-            Controls.Add(dateTimePicker1);
+            Controls.Add(FechaInicio);
             Controls.Add(label8);
             Controls.Add(Volver);
             Controls.Add(comboBox1);
@@ -251,6 +251,6 @@
         private Button Volver;
         private ErrorProvider errorProvider1;
         private Label label8;
-        private DateTimePicker dateTimePicker1;
+        private DateTimePicker FechaInicio;
     }
 }
