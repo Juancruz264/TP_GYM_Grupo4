@@ -35,13 +35,23 @@ namespace clasesGYM_.Repositorios
                 }
             }
         }
-        public static void ActualizarClase(Clase clase)
+        public static void ActualizarClase(int id, Clase nuevaClase)
         {
             using (var context = new AplicationDbContext())
             {
-                context.Clases.Update(clase);
-                context.SaveChanges();
+                var claseExistente = context.Clases.Find(id);
+                if (claseExistente != null)
+                {
+                    claseExistente.Nombre = nuevaClase.Nombre;
+                    claseExistente.Profesor = nuevaClase.Profesor;
+                    claseExistente.HoraInicio = nuevaClase.HoraInicio;
+                    claseExistente.HoraFin = nuevaClase.HoraFin;
+
+                    context.SaveChanges();
+                }
             }
+
+
         }
     }
 }

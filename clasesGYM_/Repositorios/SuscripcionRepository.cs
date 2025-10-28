@@ -35,6 +35,7 @@ namespace clasesGYM_.Repositorios
             }
         }
 
+
         // METODO: Obtener todas las suscripciones disponibles
         public static List<Suscripcion> ObtenerSuscripciones()
         {

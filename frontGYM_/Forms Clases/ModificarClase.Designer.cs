@@ -32,17 +32,16 @@
             label6 = new Label();
             label1 = new Label();
             label2 = new Label();
-            label3 = new Label();
-            comboBox1 = new ComboBox();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            dateTimePicker1 = new DateTimePicker();
-            dateTimePicker2 = new DateTimePicker();
+            Nombre = new TextBox();
+            Profesor = new TextBox();
+            HoraInicio = new DateTimePicker();
+            HoraFin = new DateTimePicker();
             label4 = new Label();
             label5 = new Label();
             button1 = new Button();
             Volver = new Button();
             button2 = new Button();
+            Id = new TextBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -85,55 +84,42 @@
             label2.TabIndex = 11;
             label2.Text = "Profesor";
             // 
-            // label3
+            // Nombre
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(115, 157);
-            label3.Name = "label3";
-            label3.Size = new Size(38, 20);
-            label3.TabIndex = 12;
-            label3.Text = "Días";
+            Nombre.Location = new Point(186, 54);
+            Nombre.Name = "Nombre";
+            Nombre.Size = new Size(219, 27);
+            Nombre.TabIndex = 14;
             // 
-            // comboBox1
+            // Profesor
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(186, 157);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(219, 28);
-            comboBox1.TabIndex = 13;
+            Profesor.Location = new Point(186, 107);
+            Profesor.Name = "Profesor";
+            Profesor.Size = new Size(219, 27);
+            Profesor.TabIndex = 15;
             // 
-            // textBox1
+            // HoraInicio
             // 
-            textBox1.Location = new Point(186, 54);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(219, 27);
-            textBox1.TabIndex = 14;
+            HoraInicio.Format = DateTimePickerFormat.Time;
+            HoraInicio.Location = new Point(186, 158);
+            HoraInicio.Name = "HoraInicio";
+            HoraInicio.ShowUpDown = true;
+            HoraInicio.Size = new Size(219, 27);
+            HoraInicio.TabIndex = 16;
             // 
-            // textBox2
+            // HoraFin
             // 
-            textBox2.Location = new Point(186, 107);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(219, 27);
-            textBox2.TabIndex = 15;
-            // 
-            // dateTimePicker1
-            // 
-            dateTimePicker1.Location = new Point(186, 204);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(219, 27);
-            dateTimePicker1.TabIndex = 16;
-            // 
-            // dateTimePicker2
-            // 
-            dateTimePicker2.Location = new Point(186, 264);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(219, 27);
-            dateTimePicker2.TabIndex = 17;
+            HoraFin.Format = DateTimePickerFormat.Time;
+            HoraFin.Location = new Point(186, 217);
+            HoraFin.Name = "HoraFin";
+            HoraFin.ShowUpDown = true;
+            HoraFin.Size = new Size(219, 27);
+            HoraFin.TabIndex = 17;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(50, 209);
+            label4.Location = new Point(52, 158);
             label4.Name = "label4";
             label4.Size = new Size(103, 20);
             label4.TabIndex = 18;
@@ -142,7 +128,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(12, 269);
+            label5.Location = new Point(12, 217);
             label5.Name = "label5";
             label5.Size = new Size(143, 20);
             label5.TabIndex = 19;
@@ -152,12 +138,13 @@
             // 
             button1.BackColor = SystemColors.ScrollBar;
             button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(186, 329);
+            button1.Location = new Point(186, 285);
             button1.Name = "button1";
             button1.Size = new Size(219, 36);
             button1.TabIndex = 30;
             button1.Text = "Modificar!";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // Volver
             // 
@@ -176,35 +163,43 @@
             // 
             button2.BackColor = SystemColors.ControlDark;
             button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(186, 392);
+            button2.Location = new Point(186, 361);
             button2.Name = "button2";
             button2.Size = new Size(219, 38);
             button2.TabIndex = 32;
             button2.Text = "Eliminar!";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
+            // Id
+            // 
+            Id.Location = new Point(36, 272);
+            Id.Name = "Id";
+            Id.Size = new Size(70, 27);
+            Id.TabIndex = 33;
             // 
             // ModificarClase
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1009, 501);
+            Controls.Add(Id);
             Controls.Add(button2);
             Controls.Add(Volver);
             Controls.Add(button1);
             Controls.Add(label5);
             Controls.Add(label4);
-            Controls.Add(dateTimePicker2);
-            Controls.Add(dateTimePicker1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(comboBox1);
-            Controls.Add(label3);
+            Controls.Add(HoraFin);
+            Controls.Add(HoraInicio);
+            Controls.Add(Profesor);
+            Controls.Add(Nombre);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(dataGridView1);
             Controls.Add(label6);
             Name = "ModificarClase";
             Text = "ModificarClase";
+            Load += ModificarClase_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -216,16 +211,15 @@
         private Label label6;
         private Label label1;
         private Label label2;
-        private Label label3;
-        private ComboBox comboBox1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private DateTimePicker dateTimePicker1;
-        private DateTimePicker dateTimePicker2;
+        private TextBox Nombre;
+        private TextBox Profesor;
+        private DateTimePicker HoraInicio;
+        private DateTimePicker HoraFin;
         private Label label4;
         private Label label5;
         private Button button1;
         private Button Volver;
         private Button button2;
+        private TextBox Id;
     }
 }

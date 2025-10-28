@@ -1,11 +1,11 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using clasesGYM_;
-public class AplicationDbContext: DbContext
+public class AplicationDbContext : DbContext
 {
-    
+
     public DbSet<Pago> Pagos { get; set; }
-    public DbSet<Suscripcion> Suscripciones { get; set; }   
+    public DbSet<Suscripcion> Suscripciones { get; set; }
     public DbSet<Cliente> Clientes { get; set; }
     public DbSet<Clase> Clases { get; set; }
     public DbSet<SuscripcionCliente> SuscripcionClientes { get; set; }
@@ -17,7 +17,7 @@ public class AplicationDbContext: DbContext
     }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-       
+
         modelBuilder.Entity<Pago>().ToTable("Pagos");
         modelBuilder.Entity<Suscripcion>().ToTable("Suscripciones");
         modelBuilder.Entity<Cliente>().ToTable("Clientes");
@@ -41,14 +41,12 @@ public class AplicationDbContext: DbContext
             .WithMany(c => c.Suscripciones)    // Un Cliente tiene MUCHAS SuscripcionCliente
             .HasForeignKey(sc => sc.ClienteId); // La clave foránea es ClienteId
 
-        // CONFIGURACIÓN DE LA RELACIÓN: Suscripcion → SuscripcionCliente
-        // Una SuscripcionCliente pertenece a UNA Suscripcion
-        // Una Suscripcion puede tener MUCHOS SuscripcionCliente (diferentes clientes)
-        modelBuilder.Entity<SuscripcionCliente>()
+    // CONFIGURACIÓN DE LA RELACIÓN: Suscripcion → SuscripcionCliente
+    // Una SuscripcionCliente pertenece a UNA Suscripcion
+    // Una Suscripcion puede tener MUCHOS SuscripcionCliente (diferentes clientes)
+    modelBuilder.Entity<SuscripcionCliente>()
             .HasOne(sc => sc.Suscripcion)      // Una SuscripcionCliente tiene UNA Suscripcion
             .WithMany(s => s.Clientes)         // Una Suscripcion tiene MUCHOS SuscripcionCliente
-            .HasForeignKey(sc => sc.SuscripcionId); // La clave foránea es SuscripcionId
-    
+            .HasForeignKey(sc => sc.SuscripcionId);
     }
-
 }

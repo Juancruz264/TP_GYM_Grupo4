@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("frontGYM_")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c3e73313af4635ecdd0740b8d55ac2b239d7efb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffeb34422e7dd2353b6e78926b82341168d98d8f")]
 [assembly: System.Reflection.AssemblyProductAttribute("frontGYM_")]
 [assembly: System.Reflection.AssemblyTitleAttribute("frontGYM_")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -33,6 +33,7 @@ namespace clasesGYM_.Repositorios
             }
         }
 
+
         // MÉTODO: Agregar cliente con suscripción (para frontend) este se usa porque el front ya pide una suscripcion
         public static void AgregarClienteConSuscripcion(Cliente cliente, int suscripcionId, DateTime fechaInicio, DateTime fechaFin)
         {
