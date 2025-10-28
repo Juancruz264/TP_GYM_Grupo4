@@ -1,4 +1,5 @@
-﻿using System;
+﻿using frontGYM_.Forms_Suscripciones;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,6 +26,14 @@ namespace frontGYM_
         private void Volver_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void ModificarSuscripcion_Click(object sender, EventArgs e)
+        {
+            using (ModificarSuscripcion modificarSuscripcion = new ModificarSuscripcion())
+            {
+                modificarSuscripcion.ShowDialog();
+            }
         }
     }
 }

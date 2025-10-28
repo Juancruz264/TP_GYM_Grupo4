@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            BajaSuscripcion = new Button();
             ModificarSuscripcion = new Button();
             AltaSuscripcion = new Button();
             Volver = new Button();
@@ -45,23 +44,15 @@
             label1.TabIndex = 7;
             label1.Text = "ABM SUSCRIPCIÓN";
             // 
-            // BajaSuscripcion
-            // 
-            BajaSuscripcion.Location = new Point(187, 283);
-            BajaSuscripcion.Name = "BajaSuscripcion";
-            BajaSuscripcion.Size = new Size(407, 41);
-            BajaSuscripcion.TabIndex = 6;
-            BajaSuscripcion.Text = "Dar de baja suscripción";
-            BajaSuscripcion.UseVisualStyleBackColor = true;
-            // 
             // ModificarSuscripcion
             // 
             ModificarSuscripcion.Location = new Point(187, 210);
             ModificarSuscripcion.Name = "ModificarSuscripcion";
             ModificarSuscripcion.Size = new Size(407, 41);
             ModificarSuscripcion.TabIndex = 5;
-            ModificarSuscripcion.Text = "Modificar Suscripción";
+            ModificarSuscripcion.Text = "Modificar o Eliminar Suscripción";
             ModificarSuscripcion.UseVisualStyleBackColor = true;
+            ModificarSuscripcion.Click += ModificarSuscripcion_Click;
             // 
             // AltaSuscripcion
             // 
@@ -93,7 +84,6 @@
             ClientSize = new Size(800, 450);
             Controls.Add(Volver);
             Controls.Add(label1);
-            Controls.Add(BajaSuscripcion);
             Controls.Add(ModificarSuscripcion);
             Controls.Add(AltaSuscripcion);
             Name = "MenuABMSuscripcion";
@@ -105,7 +95,6 @@
         #endregion
 
         private Label label1;
-        private Button BajaSuscripcion;
         private Button ModificarSuscripcion;
         private Button AltaSuscripcion;
         private Button Volver;

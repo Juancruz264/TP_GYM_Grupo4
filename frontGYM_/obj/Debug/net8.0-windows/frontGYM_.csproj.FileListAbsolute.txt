@@ -442,3 +442,4 @@ C:\Users\Usuario\TP_GYM_Grupo4-main\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-win
 C:\Users\Usuario\TP_GYM_Grupo4-main\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\frontGYM_.pdb
 C:\Users\Usuario\TP_GYM_Grupo4-main\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\frontGYM_.genruntimeconfig.cache
 C:\Users\Usuario\TP_GYM_Grupo4-main\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\ref\frontGYM_.dll
+C:\Users\ainxr\OneDrive\Desktop\TP\TP_GYM_Grupo4\frontGYM_\obj\Debug\net8.0-windows\frontGYM_.Forms_Suscripciones.ModificarSuscripcion.resources

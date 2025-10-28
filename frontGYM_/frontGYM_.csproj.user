@@ -13,6 +13,9 @@
     <Compile Update="Forms Suscripciones\AltaSuscripcion.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms Suscripciones\ModificarSuscripcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Menu.cs">
       <SubType>Form</SubType>
     </Compile>

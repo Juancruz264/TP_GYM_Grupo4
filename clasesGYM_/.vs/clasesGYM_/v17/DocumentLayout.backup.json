@@ -3,14 +3,45 @@
   "WorkspaceRootPath": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\clasesGYM_\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\frontgym_\\forms suscripciones\\altasuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\frontgym_\\forms cliente\\altacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\frontgym_\\forms cliente\\altacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\frontgym_\\forms suscripciones\\modificarsuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\frontgym_\\forms suscripciones\\modificarsuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\frontgym_\\forms clases\\modificarclase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\clasesgym_\\repositorios\\suscripcionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:repositorios\\suscripcionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\clasesgym_\\repositorios\\suscripcioncliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:repositorios\\suscripcioncliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\frontgym_\\forms suscripciones\\menuabmsuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\frontgym_\\forms suscripciones\\menuabmsuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\frontgym_\\forms clases\\modificarclase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\frontgym_\\forms clases\\altaclase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\frontgym_\\forms suscripciones\\altasuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\clasesgym_\\repositorios\\suscripcionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:repositorios\\suscripcionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\frontgym_\\forms suscripciones\\altasuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\clasesgym_\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -24,13 +55,6 @@
       "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\frontgym_\\forms clases\\altaclase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\clasesgym_\\repositorios\\suscripcioncliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:repositorios\\suscripcioncliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\frontgym_\\forms clases\\modificarclase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\clasesgym_\\suscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:suscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,14 +62,8 @@
       "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\frontgym_\\forms clases\\altaclase.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\frontgym_\\forms clases\\altaclase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\clasesgym_\\repositorios\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|solutionrelative:repositorios\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\frontgym_\\forms clases\\modificarclase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95092FAC-5E6A-4D39-9A63-4BB5571F3909}|clasesGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\clasesgym_\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,9 +71,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\frontgym_\\forms clases\\menuabmclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\frontgym_\\forms cliente\\altacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7812E131-0780-44F4-9AB0-CB47604AAAA5}|..\\frontGYM_\\frontGYM_.csproj|c:\\users\\ainxr\\onedrive\\desktop\\tp\\tp_gym_grupo4\\frontgym_\\forms cliente\\menuabmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -71,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -83,42 +98,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\clasesGYM_\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\clasesGYM_\\ApplicationDbContext.cs",
-              "RelativeToolTip": "ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAZAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AltaCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Cliente\\AltaCliente.cs",
+              "RelativeDocumentMoniker": "..\\frontGYM_\\Forms Cliente\\AltaCliente.cs",
+              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Cliente\\AltaCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\frontGYM_\\Forms Cliente\\AltaCliente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T16:23:21.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T19:57:37.278Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SuscripcionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\SuscripcionRepository.cs",
-              "RelativeDocumentMoniker": "Repositorios\\SuscripcionRepository.cs",
-              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\SuscripcionRepository.cs",
-              "RelativeToolTip": "Repositorios\\SuscripcionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Title": "ModificarSuscripcion.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Suscripciones\\ModificarSuscripcion.cs",
+              "RelativeDocumentMoniker": "..\\frontGYM_\\Forms Suscripciones\\ModificarSuscripcion.cs",
+              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Suscripciones\\ModificarSuscripcion.cs",
+              "RelativeToolTip": "..\\frontGYM_\\Forms Suscripciones\\ModificarSuscripcion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T15:57:42.418Z",
+              "WhenOpened": "2025-10-28T19:41:16.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AltaSuscripcion.cs",
-              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Suscripciones\\AltaSuscripcion.cs",
-              "RelativeDocumentMoniker": "..\\frontGYM_\\Forms Suscripciones\\AltaSuscripcion.cs",
-              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Suscripciones\\AltaSuscripcion.cs",
-              "RelativeToolTip": "..\\frontGYM_\\Forms Suscripciones\\AltaSuscripcion.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAkwB8AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "MenuABMSuscripcion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Suscripciones\\MenuABMSuscripcion.cs",
+              "RelativeDocumentMoniker": "..\\frontGYM_\\Forms Suscripciones\\MenuABMSuscripcion.cs",
+              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Suscripciones\\MenuABMSuscripcion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\frontGYM_\\Forms Suscripciones\\MenuABMSuscripcion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T13:04:37.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T19:37:16.044Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -135,7 +148,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
+              "Title": "SuscripcionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\SuscripcionRepository.cs",
+              "RelativeDocumentMoniker": "Repositorios\\SuscripcionRepository.cs",
+              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\SuscripcionRepository.cs",
+              "RelativeToolTip": "Repositorios\\SuscripcionRepository.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T15:57:42.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AltaCliente.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Cliente\\AltaCliente.cs",
+              "RelativeDocumentMoniker": "..\\frontGYM_\\Forms Cliente\\AltaCliente.cs",
+              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Cliente\\AltaCliente.cs",
+              "RelativeToolTip": "..\\frontGYM_\\Forms Cliente\\AltaCliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T13:11:19.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ModificarSuscripcion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Suscripciones\\ModificarSuscripcion.cs",
+              "RelativeDocumentMoniker": "..\\frontGYM_\\Forms Suscripciones\\ModificarSuscripcion.cs",
+              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Suscripciones\\ModificarSuscripcion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\frontGYM_\\Forms Suscripciones\\ModificarSuscripcion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T19:37:45.896Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModificarClase.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Clases\\ModificarClase.cs",
+              "RelativeDocumentMoniker": "..\\frontGYM_\\Forms Clases\\ModificarClase.cs",
+              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Clases\\ModificarClase.cs",
+              "RelativeToolTip": "..\\frontGYM_\\Forms Clases\\ModificarClase.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAmwDcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T15:12:15.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MenuABMSuscripcion.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Suscripciones\\MenuABMSuscripcion.cs",
+              "RelativeDocumentMoniker": "..\\frontGYM_\\Forms Suscripciones\\MenuABMSuscripcion.cs",
+              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Suscripciones\\MenuABMSuscripcion.cs",
+              "RelativeToolTip": "..\\frontGYM_\\Forms Suscripciones\\MenuABMSuscripcion.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T19:38:10.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ModificarClase.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Clases\\ModificarClase.cs",
               "RelativeDocumentMoniker": "..\\frontGYM_\\Forms Clases\\ModificarClase.cs",
@@ -144,70 +221,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T13:07:38.501Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AltaSuscripcion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Suscripciones\\AltaSuscripcion.cs",
-              "RelativeDocumentMoniker": "..\\frontGYM_\\Forms Suscripciones\\AltaSuscripcion.cs",
-              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Suscripciones\\AltaSuscripcion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\frontGYM_\\Forms Suscripciones\\AltaSuscripcion.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T15:58:13.225Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AltaClase.cs",
-              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Clases\\AltaClase.cs",
-              "RelativeDocumentMoniker": "..\\frontGYM_\\Forms Clases\\AltaClase.cs",
-              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Clases\\AltaClase.cs",
-              "RelativeToolTip": "..\\frontGYM_\\Forms Clases\\AltaClase.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwAwAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T13:17:49.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ClaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\ClaseRepository.cs",
-              "RelativeDocumentMoniker": "Repositorios\\ClaseRepository.cs",
-              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\ClaseRepository.cs",
-              "RelativeToolTip": "Repositorios\\ClaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T15:24:28.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Suscripcion.cs",
-              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\clasesGYM_\\Suscripcion.cs",
-              "RelativeDocumentMoniker": "Suscripcion.cs",
-              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\clasesGYM_\\Suscripcion.cs",
-              "RelativeToolTip": "Suscripcion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T16:22:44.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AltaClase.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Clases\\AltaClase.Designer.cs",
-              "RelativeDocumentMoniker": "..\\frontGYM_\\Forms Clases\\AltaClase.Designer.cs",
-              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Clases\\AltaClase.Designer.cs",
-              "RelativeToolTip": "..\\frontGYM_\\Forms Clases\\AltaClase.Designer.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T14:19:36.748Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -223,7 +236,94 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AltaSuscripcion.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Suscripciones\\AltaSuscripcion.cs",
+              "RelativeDocumentMoniker": "..\\frontGYM_\\Forms Suscripciones\\AltaSuscripcion.cs",
+              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Suscripciones\\AltaSuscripcion.cs",
+              "RelativeToolTip": "..\\frontGYM_\\Forms Suscripciones\\AltaSuscripcion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T13:04:37.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\clasesGYM_\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\clasesGYM_\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T16:23:21.169Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "AltaSuscripcion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Suscripciones\\AltaSuscripcion.cs",
+              "RelativeDocumentMoniker": "..\\frontGYM_\\Forms Suscripciones\\AltaSuscripcion.cs",
+              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Suscripciones\\AltaSuscripcion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\frontGYM_\\Forms Suscripciones\\AltaSuscripcion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T15:58:13.225Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AltaClase.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Clases\\AltaClase.cs",
+              "RelativeDocumentMoniker": "..\\frontGYM_\\Forms Clases\\AltaClase.cs",
+              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Clases\\AltaClase.cs",
+              "RelativeToolTip": "..\\frontGYM_\\Forms Clases\\AltaClase.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T13:17:49.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ClaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\ClaseRepository.cs",
+              "RelativeDocumentMoniker": "Repositorios\\ClaseRepository.cs",
+              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\ClaseRepository.cs",
+              "RelativeToolTip": "Repositorios\\ClaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T15:24:28.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Suscripcion.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\clasesGYM_\\Suscripcion.cs",
+              "RelativeDocumentMoniker": "Suscripcion.cs",
+              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\clasesGYM_\\Suscripcion.cs",
+              "RelativeToolTip": "Suscripcion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T16:22:44.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AltaClase.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Clases\\AltaClase.Designer.cs",
+              "RelativeDocumentMoniker": "..\\frontGYM_\\Forms Clases\\AltaClase.Designer.cs",
+              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Clases\\AltaClase.Designer.cs",
+              "RelativeToolTip": "..\\frontGYM_\\Forms Clases\\AltaClase.Designer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T14:19:36.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "ClienteRepository.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\clasesGYM_\\Repositorios\\ClienteRepository.cs",
               "RelativeDocumentMoniker": "Repositorios\\ClienteRepository.cs",
@@ -231,25 +331,11 @@
               "RelativeToolTip": "Repositorios\\ClienteRepository.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T15:57:35.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T15:57:35.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ModificarClase.cs",
-              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Clases\\ModificarClase.cs",
-              "RelativeDocumentMoniker": "..\\frontGYM_\\Forms Clases\\ModificarClase.cs",
-              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Clases\\ModificarClase.cs",
-              "RelativeToolTip": "..\\frontGYM_\\Forms Clases\\ModificarClase.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAwwG4AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T15:12:15.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "Clase.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\clasesGYM_\\Clase.cs",
               "RelativeDocumentMoniker": "Clase.cs",
@@ -257,12 +343,11 @@
               "RelativeToolTip": "Clase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T13:25:00.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T13:25:00.832Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "MenuABMCliente.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Cliente\\MenuABMCliente.cs",
               "RelativeDocumentMoniker": "..\\frontGYM_\\Forms Cliente\\MenuABMCliente.cs",
@@ -270,25 +355,11 @@
               "RelativeToolTip": "..\\frontGYM_\\Forms Cliente\\MenuABMCliente.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAArwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T13:58:43.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T13:58:43.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AltaCliente.cs",
-              "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Cliente\\AltaCliente.cs",
-              "RelativeDocumentMoniker": "..\\frontGYM_\\Forms Cliente\\AltaCliente.cs",
-              "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Cliente\\AltaCliente.cs",
-              "RelativeToolTip": "..\\frontGYM_\\Forms Cliente\\AltaCliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T13:11:19.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "MenuABMClases.cs",
               "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Clases\\MenuABMClases.cs",
               "RelativeDocumentMoniker": "..\\frontGYM_\\Forms Clases\\MenuABMClases.cs",
@@ -296,20 +367,18 @@
               "RelativeToolTip": "..\\frontGYM_\\Forms Clases\\MenuABMClases.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T13:06:58.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T13:06:58.117Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "ModificarCliente.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Cliente\\ModificarCliente.cs",
               "RelativeDocumentMoniker": "..\\frontGYM_\\Forms Cliente\\ModificarCliente.cs",
               "ToolTip": "C:\\Users\\ainxr\\OneDrive\\Desktop\\TP\\TP_GYM_Grupo4\\frontGYM_\\Forms Cliente\\ModificarCliente.cs [Dise\u00F1o]",
               "RelativeToolTip": "..\\frontGYM_\\Forms Cliente\\ModificarCliente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T13:10:31.186Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-10-28T13:10:31.186Z"
             }
           ]
         }
