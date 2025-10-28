@@ -8,8 +8,9 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using clasesGYM_;
+using Microsoft.EntityFrameworkCore;
 using clasesGYM_.Repositorios;
+using clasesGYM_;
 
 namespace frontGYM_.Forms_Clases
 {
@@ -21,23 +22,28 @@ namespace frontGYM_.Forms_Clases
         }
         private void AltaClase_Load(object sender, EventArgs e)
         {
+            listBoxDias.SelectionMode = SelectionMode.MultiSimple;
+            listBoxDias.Items.AddRange(Enum.GetNames(typeof(Dias)));
+
+
         }
 
-        private void CrearClase_Click(object sender, EventArgs e)
+        private void Registro_Click(object sender, EventArgs e)
         {
+            Dias diasSeleccionados = Dias.Ninguno;
+
+            foreach (var item in listBoxDias.SelectedItems)
+            {
+                Dias dia = (Dias)Enum.Parse(typeof(Dias), item.ToString());
+                diasSeleccionados |= dia;
+            }
             using (AplicationDbContext context = new AplicationDbContext())
             {
-                var horario = comboBox1.SelectedItem as Clase;
-                if (horario == null)
-                {
-                    MessageBox.Show("Por favor, seleccione un tipo de suscripción.");
-                    return;
-                }
-
                 var nuevaClase = new Clase
                 {
                     Nombre = Nombre.Text,
-                    Profesor = Profesor.Text
+                    Profesor = Profesor.Text,
+                    Dias = diasSeleccionados
                 };
                 ClaseRepository.AgregarClase(nuevaClase);
                 MessageBox.Show("Clase creada con éxito.");

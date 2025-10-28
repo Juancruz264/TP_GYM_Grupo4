@@ -13,17 +13,21 @@ namespace clasesGYM_
         public string Profesor { get; set; }
         public TimeOnly HoraInicio { get; set; }
         public TimeOnly HoraFin { get; set; }
-        public DiaSemana Dias { get; set; }
-        public enum DiaSemana
+        public DiasSemana Dias { get; set; }
+
+        [Flags]
+        public enum DiasSemana
         {
-            Lunes,
-            Martes,
-            Miercoles,
-            Jueves,
-            Viernes,
-            Sabado,
-            Domingo
+            Ninguno = 0,
+            Lunes = 1,
+            Martes = 2,
+            Miércoles = 4,
+            Jueves = 8,
+            Viernes = 16,
+            Sábado = 32,
+            Domingo = 64
         }
+
 
     }
 }

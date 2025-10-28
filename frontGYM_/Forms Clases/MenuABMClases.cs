@@ -25,7 +25,7 @@ namespace frontGYM_
 
         private void ModificarClase_Click(object sender, EventArgs e)
         {
-
+            using (ModificarClase modificarClase = new ModificarClase()) { modificarClase.ShowDialog(); }
         }
     }
 }

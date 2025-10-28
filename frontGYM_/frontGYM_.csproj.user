@@ -10,9 +10,6 @@
     <Compile Update="Forms Clases\ModificarClase.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms Cliente\EliminarCliente.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Forms Suscripciones\AltaSuscripcion.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -42,6 +42,7 @@
             label5 = new Label();
             button1 = new Button();
             Volver = new Button();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -60,11 +61,11 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Verdana", 10.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label6.Location = new Point(219, 9);
+            label6.Location = new Point(186, 9);
             label6.Name = "label6";
-            label6.Size = new Size(186, 20);
+            label6.Size = new Size(309, 20);
             label6.TabIndex = 8;
-            label6.Text = "MODIFICAR CLASE";
+            label6.Text = "MODIFICAR O ELIMINAR CLASE";
             // 
             // label1
             // 
@@ -150,9 +151,10 @@
             // button1
             // 
             button1.BackColor = SystemColors.ScrollBar;
-            button1.Location = new Point(205, 329);
+            button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Location = new Point(186, 329);
             button1.Name = "button1";
-            button1.Size = new Size(165, 36);
+            button1.Size = new Size(219, 36);
             button1.TabIndex = 30;
             button1.Text = "Modificar!";
             button1.UseVisualStyleBackColor = false;
@@ -170,11 +172,23 @@
             Volver.UseVisualStyleBackColor = false;
             Volver.Click += Volver_Click;
             // 
+            // button2
+            // 
+            button2.BackColor = SystemColors.ControlDark;
+            button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.Location = new Point(186, 392);
+            button2.Name = "button2";
+            button2.Size = new Size(219, 38);
+            button2.TabIndex = 32;
+            button2.Text = "Eliminar!";
+            button2.UseVisualStyleBackColor = false;
+            // 
             // ModificarClase
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1009, 501);
+            Controls.Add(button2);
             Controls.Add(Volver);
             Controls.Add(button1);
             Controls.Add(label5);
@@ -212,5 +226,6 @@
         private Label label5;
         private Button button1;
         private Button Volver;
+        private Button button2;
     }
 }

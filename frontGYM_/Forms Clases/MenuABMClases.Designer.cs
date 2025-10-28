@@ -30,7 +30,6 @@
         {
             Volver = new Button();
             label1 = new Label();
-            BajaClase = new Button();
             ModificarClase = new Button();
             AltaClase = new Button();
             SuspendLayout();
@@ -57,22 +56,13 @@
             label1.TabIndex = 12;
             label1.Text = "ABM CLASE";
             // 
-            // BajaClase
-            // 
-            BajaClase.Location = new Point(189, 283);
-            BajaClase.Name = "BajaClase";
-            BajaClase.Size = new Size(407, 41);
-            BajaClase.TabIndex = 11;
-            BajaClase.Text = "Dar de baja clase";
-            BajaClase.UseVisualStyleBackColor = true;
-            // 
             // ModificarClase
             // 
             ModificarClase.Location = new Point(189, 210);
             ModificarClase.Name = "ModificarClase";
             ModificarClase.Size = new Size(407, 41);
             ModificarClase.TabIndex = 10;
-            ModificarClase.Text = "Modificar Clase";
+            ModificarClase.Text = "Modificar o Eliminar Clase";
             ModificarClase.UseVisualStyleBackColor = true;
             ModificarClase.Click += ModificarClase_Click;
             // 
@@ -93,7 +83,6 @@
             ClientSize = new Size(800, 450);
             Controls.Add(Volver);
             Controls.Add(label1);
-            Controls.Add(BajaClase);
             Controls.Add(ModificarClase);
             Controls.Add(AltaClase);
             Name = "MenuABMClases";
@@ -106,7 +95,6 @@
 
         private Button Volver;
         private Label label1;
-        private Button BajaClase;
         private Button ModificarClase;
         private Button AltaClase;
     }
