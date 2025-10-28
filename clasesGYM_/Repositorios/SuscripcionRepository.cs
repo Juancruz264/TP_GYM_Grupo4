@@ -14,22 +14,6 @@ namespace clasesGYM_.Repositorios
         {
             using (var context = new AplicationDbContext())
             {
-                // Validar que el nombre no sea nulo o vacío
-                if (string.IsNullOrWhiteSpace(suscripcion.Nombre))
-                {
-                    throw new ArgumentException("El nombre de la suscripción no puede estar vacío");
-                }
-
-                // Normalizar nombre a MAYÚSCULAS
-                suscripcion.Nombre = suscripcion.Nombre.Trim().ToUpper();
-
-                // Verificar si ya existe una suscripción con el mismo nombre (insensible a mayúsculas)
-                var existente = context.Suscripciones.FirstOrDefault(s => s.Nombre.ToLower() == suscripcion.Nombre.ToLower());
-                if (existente != null)
-                {
-                    throw new InvalidOperationException($"Ya existe una suscripción con el nombre '{existente.Nombre}'");
-                }
-
                 context.Suscripciones.Add(suscripcion);
                 context.SaveChanges();
             }

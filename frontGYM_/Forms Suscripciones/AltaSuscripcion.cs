@@ -30,47 +30,25 @@ namespace frontGYM_
         }
         private void Registro_Click(object sender, EventArgs e)
         {
-            try
-            {
-                // Validar campos obligatorios
-                if (string.IsNullOrWhiteSpace(Nombre.Text))
-                {
-                    MessageBox.Show("Por favor, ingrese el nombre de la suscripción.");
-                    return;
-                }
-
-                if (string.IsNullOrWhiteSpace(Precio.Text))
-                {
-                    MessageBox.Show("Por favor, ingrese el precio de la suscripción.");
-                    return;
-                }
-
-                // Crear nueva suscripción (sin Vigencia)
-                var nuevaSuscripcion = new Suscripcion
-                {
-                    Nombre = Nombre.Text.Trim(),
-                    Precio = decimal.Parse(Precio.Text)
-                };
-
-                // Usar el repositorio (maneja validaciones automáticamente)
-                SuscripcionRepository.AgregarSuscripcion(nuevaSuscripcion);
-
-                MessageBox.Show("Suscripción registrada con éxito.");
-                this.Close();
-            }
-            catch (FormatException)
-            {
-                MessageBox.Show("Por favor, ingrese un precio válido (solo números).");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error al registrar la suscripción: {ex.Message}");
-            }
         }
 
         private void textbox_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Registro_Click_1(object sender, EventArgs e)
+        {
+            using (AplicationDbContext context = new AplicationDbContext())
+            {
+                var nuevaSuscripcion = new Suscripcion
+                {
+                    Nombre = Nombre.Text,
+                    Precio = decimal.Parse(Precio.Text)
+                };
+                SuscripcionRepository.AgregarSuscripcion(nuevaSuscripcion);
+                MessageBox.Show("Suscripción registrada con éxito.");
+            }
         }
     }
 }

@@ -102,6 +102,7 @@
             Registro.TabIndex = 12;
             Registro.Text = "Registrar!";
             Registro.UseVisualStyleBackColor = false;
+            Registro.Click += Registro_Click_1;
             // 
             // AltaSuscripcion
             // 
