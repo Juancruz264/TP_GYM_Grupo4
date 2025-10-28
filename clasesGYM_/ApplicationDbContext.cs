@@ -12,7 +12,7 @@ public class AplicationDbContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.UseSqlServer(
-    "Server=localHost;Database=SistemaGym_;Trusted_Connection=True;TrustServerCertificate=True;"
+    "Server=localhost;Database=SistemaGym_;Trusted_Connection=True;TrustServerCertificate=True;"
 );
     }
     protected override void OnModelCreating(ModelBuilder modelBuilder)

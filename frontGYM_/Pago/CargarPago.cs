@@ -16,5 +16,27 @@ namespace frontGYM_.Pago
         {
             InitializeComponent();
         }
+
+        private void CargarPago_Load(object sender, EventArgs e)
+        {
+            using (AplicationDbContext context = new AplicationDbContext())
+            {
+                var clientes = context.Clientes.ToList();
+                dataGridView1.DataSource = clientes;
+            }
+        }
+
+        private void Apellido_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_SelectionChanged(object sender, EventArgs e)
+        {
+            //Id.Text = dataGridView1.CurrentRow?.Cells["Id"].Value?.ToString();
+            //Nombre.Text = dataGridView1.CurrentRow?.Cells["Nombre"].Value?.ToString();
+            //Apellido.Text = dataGridView1.CurrentRow?.Cells["Apellido"].Value?.ToString();
+            //Suscripcion.Items.Add(dataGridView1.CurrentRow?.Cells["Suscripciones"].Value?.ToString());         
+        }
     }
 }

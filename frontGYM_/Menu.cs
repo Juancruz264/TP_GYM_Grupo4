@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using frontGYM_.Pago;
 
 namespace frontGYM_
 {
@@ -41,6 +42,11 @@ namespace frontGYM_
         private void ABMSuscrip_Click(object sender, EventArgs e)
         {
             using (MenuABMSuscripcion abmSuscrip = new MenuABMSuscripcion()) { abmSuscrip.ShowDialog(); }
+        }
+
+        private void CargarPago_Click(object sender, EventArgs e)
+        {
+            using (CargarPago cargarpago = new CargarPago()) { cargarpago.ShowDialog(); }
         }
     }
 }

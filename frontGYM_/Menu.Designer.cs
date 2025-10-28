@@ -86,6 +86,7 @@
             CargarPago.TabIndex = 4;
             CargarPago.Text = "Cargar Pago";
             CargarPago.UseVisualStyleBackColor = true;
+            CargarPago.Click += CargarPago_Click;
             // 
             // Reportes
             // 

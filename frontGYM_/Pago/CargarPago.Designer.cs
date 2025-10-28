@@ -31,7 +31,7 @@
             Pago = new Button();
             label5 = new Label();
             label4 = new Label();
-            dateTimePicker1 = new DateTimePicker();
+            Fecha = new DateTimePicker();
             comboBox1 = new ComboBox();
             Volver = new Button();
             Monto = new TextBox();
@@ -43,15 +43,16 @@
             dataGridView1 = new DataGridView();
             Apellido = new TextBox();
             label7 = new Label();
-            Buscar = new Button();
-            Suscripción = new TextBox();
+            Id = new TextBox();
+            Ide = new Label();
+            Suscripcion = new ListBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // Pago
             // 
             Pago.BackColor = SystemColors.ScrollBar;
-            Pago.Location = new Point(537, 436);
+            Pago.Location = new Point(526, 447);
             Pago.Name = "Pago";
             Pago.Size = new Size(165, 36);
             Pago.TabIndex = 42;
@@ -76,12 +77,12 @@
             label4.TabIndex = 40;
             label4.Text = "Fecha ";
             // 
-            // dateTimePicker1
+            // Fecha
             // 
-            dateTimePicker1.Location = new Point(458, 338);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(335, 27);
-            dateTimePicker1.TabIndex = 38;
+            Fecha.Location = new Point(458, 338);
+            Fecha.Name = "Fecha";
+            Fecha.Size = new Size(335, 27);
+            Fecha.TabIndex = 38;
             // 
             // comboBox1
             // 
@@ -112,9 +113,9 @@
             // 
             // Nombre
             // 
-            Nombre.Location = new Point(117, 62);
+            Nombre.Location = new Point(121, 124);
             Nombre.Name = "Nombre";
-            Nombre.Size = new Size(204, 27);
+            Nombre.Size = new Size(192, 27);
             Nombre.TabIndex = 34;
             // 
             // label6
@@ -149,7 +150,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(33, 62);
+            label1.Location = new Point(37, 124);
             label1.Name = "label1";
             label1.Size = new Size(64, 20);
             label1.TabIndex = 30;
@@ -157,60 +158,71 @@
             // 
             // dataGridView1
             // 
+            dataGridView1.AllowUserToAddRows = false;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Location = new Point(368, 62);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(425, 155);
             dataGridView1.TabIndex = 44;
+            dataGridView1.SelectionChanged += dataGridView1_SelectionChanged;
             // 
             // Apellido
             // 
-            Apellido.Location = new Point(117, 108);
+            Apellido.Location = new Point(121, 170);
             Apellido.Name = "Apellido";
-            Apellido.Size = new Size(204, 27);
+            Apellido.Size = new Size(192, 27);
             Apellido.TabIndex = 46;
+            Apellido.TextChanged += Apellido_TextChanged;
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(33, 108);
+            label7.Location = new Point(37, 170);
             label7.Name = "label7";
             label7.Size = new Size(66, 20);
             label7.TabIndex = 45;
             label7.Text = "Apellido";
             // 
-            // Buscar
+            // Id
             // 
-            Buscar.BackColor = SystemColors.ScrollBar;
-            Buscar.Location = new Point(136, 163);
-            Buscar.Name = "Buscar";
-            Buscar.Size = new Size(165, 36);
-            Buscar.TabIndex = 47;
-            Buscar.Text = "Buscar!";
-            Buscar.UseVisualStyleBackColor = false;
+            Id.Location = new Point(121, 71);
+            Id.Name = "Id";
+            Id.Size = new Size(56, 27);
+            Id.TabIndex = 50;
             // 
-            // Suscripción
+            // Ide
             // 
-            Suscripción.Location = new Point(457, 388);
-            Suscripción.Name = "Suscripción";
-            Suscripción.Size = new Size(336, 27);
-            Suscripción.TabIndex = 48;
+            Ide.AutoSize = true;
+            Ide.Location = new Point(37, 71);
+            Ide.Name = "Ide";
+            Ide.Size = new Size(24, 20);
+            Ide.TabIndex = 49;
+            Ide.Text = "ID";
+            // 
+            // Suscripcion
+            // 
+            Suscripcion.FormattingEnabled = true;
+            Suscripcion.Location = new Point(457, 386);
+            Suscripcion.Name = "Suscripcion";
+            Suscripcion.Size = new Size(336, 44);
+            Suscripcion.TabIndex = 51;
             // 
             // CargarPago
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(869, 495);
-            Controls.Add(Suscripción);
-            Controls.Add(Buscar);
+            ClientSize = new Size(857, 495);
+            Controls.Add(Suscripcion);
+            Controls.Add(Id);
+            Controls.Add(Ide);
             Controls.Add(Apellido);
             Controls.Add(label7);
             Controls.Add(dataGridView1);
             Controls.Add(Pago);
             Controls.Add(label5);
             Controls.Add(label4);
-            Controls.Add(dateTimePicker1);
+            Controls.Add(Fecha);
             Controls.Add(comboBox1);
             Controls.Add(Volver);
             Controls.Add(Monto);
@@ -221,6 +233,7 @@
             Controls.Add(label1);
             Name = "CargarPago";
             Text = "CargarPago";
+            Load += CargarPago_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -231,7 +244,7 @@
         private Button Pago;
         private Label label5;
         private Label label4;
-        private DateTimePicker dateTimePicker1;
+        private DateTimePicker Fecha;
         private ComboBox comboBox1;
         private Button Volver;
         private TextBox Monto;
@@ -243,7 +256,8 @@
         private DataGridView dataGridView1;
         private TextBox Apellido;
         private Label label7;
-        private Button Buscar;
-        private TextBox Suscripción;
+        private TextBox Id;
+        private Label Ide;
+        private ListBox Suscripcion;
     }
 }
